@@ -1,4 +1,5 @@
-name: Your New Jekyll Site
+name: Poligeek
 markdown: redcarpet
 pygments: true
 exclude: ['Rakefile', 'README.md']
+permalink: /:categories/:title
