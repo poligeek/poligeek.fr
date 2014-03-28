@@ -8,7 +8,7 @@ title: Poligeek | Le podcast politique et tech
 	<div class="blog-grid">
 		{% for post in paginator.posts %}
 			{% if post.layout == "show" %}
-				<!-- Begin Image Format -->
+				<!-- Begin Audio Format -->
 				<div class="post format-audio box"> 
 					<div class="frame">
 						<a href="{{ post.url }}">
@@ -18,9 +18,7 @@ title: Poligeek | Le podcast politique et tech
 					<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 					{{ post.excerpt }}
 					<div class="details">
-						<span class="icon-audio"><a href="#">{{ post.date | date_to_string }}</a></span>
-						<span class="likes"><a href="#" class="likeThis">44</a></span>
-						<span class="comments"><a href="#">3</a></span>
+						<span class="icon-audio"><a href="{{ post.url }}">{{ post.date | date_to_string }}</a></span>
 					</div>
 				</div>
 				<!-- End Image Format -->
@@ -34,9 +32,7 @@ title: Poligeek | Le podcast politique et tech
 					{{ post.excerpt }}
 			
 					<div class="details">
-						<span class="icon-standard"><a href="#">{{ post.date | date_to_string }}</a></span>
-						<span class="likes"><a href="#" class="likeThis">11</a></span>
-						<span class="comments"><a href="#">0</a></span>
+						<span class="icon-standard"><a href="{{ post.url }}">{{ post.date | date_to_string }}</a></span>
 					</div>
 			
 				</div>
@@ -67,3 +63,12 @@ title: Poligeek | Le podcast politique et tech
 
 </div>
 
+<script type="text/javascript">
+	var disqus_shortname = 'poligeek';
+	(function () {
+	    var s = document.createElement('script'); s.async = true;
+	    s.type = 'text/javascript';
+	    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+	    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+	}());
+</script>
