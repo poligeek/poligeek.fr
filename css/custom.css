@@ -1,0 +1,52 @@
+.blog-grid .post.box h2 {
+	font-size: 3em;
+	line-height: 1.2em;
+}
+
+.blog-grid .post.box p {
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+.blog-grid .post.box .details {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.post.box .details {
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
+.post.box h1 {
+	font-size: 4em;
+	line-height: 1.2em;
+}
+
+.post.box p {
+	font-size: 1.3em;
+	line-height: 1.4em;
+}
+
+.sidebar.box .logo {
+	margin: -20px -20px 0 -20px;
+	padding: 0;
+}
+
+.custom.content {
+	margin: 0 auto 0 auto;
+	float: none;
+	width: 640px;
+}
+
+.custom.content .post.box {
+	margin-top: 20px;
+}
+
+.logo-home {
+	text-align: center;
+}
+
+.logo-home IMG {
+	margin: 20px auto;
+}

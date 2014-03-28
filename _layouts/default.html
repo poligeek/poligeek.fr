@@ -1,218 +1,62 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en-US">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <title>{{ page.title }}</title>
-
-<!--Main Element CSS-->
-<link href="/css/style.css" rel="stylesheet" type="text/css">
-<link href="/css/hover.css" rel="stylesheet" type="text/css">
-<link href="/css/button.css" rel="stylesheet" type="text/css">
-<link href="/css/form.css" rel="stylesheet" type="text/css">
-
-<!--Responsive CSS-->
-<link href="/css/responsive.css" rel="stylesheet" type="text/css">
-
-<!--Google Fonts-->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-
-<!--[if lte IE 8]>
-<meta HTTP-EQUIV="REFRESH" content="0; url=lte-ie8.html">
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/custom.css" />
+<link rel="stylesheet" type="text/css" href="/css/media-queries.css" />
+<link rel="stylesheet" type="text/css" href="/js/player/mediaelementplayer.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300,700,700italic|Open+Sans+Condensed:300,700' rel="stylesheet" type='text/css'>
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/css/ie8.css" media="all" />
 <![endif]-->
-
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="/css/ie9.css" media="all" />
+<![endif]-->
+<script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/js/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="/js/retina.js"></script>
+<script type="text/javascript" src="/js/selectnav.js"></script>
+<script type="text/javascript" src="/js/jquery.masonry.min.js"></script>
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/js/jquery.backstretch.min.js"></script>
+<script type="text/javascript" src="/js/mediaelement.min.js"></script>
+<script type="text/javascript" src="/js/mediaelementplayer.min.js"></script>
+<script type="text/javascript" src="/js/jquery.dcflickr.1.0.js"></script>
+<script type="text/javascript" src="/js/twitter.min.js"></script>
+<script type="text/javascript">
+	$.backstretch("/images/bg/bg.jpg");
+</script>
 </head>
-
 <body>
+<div class="scanlines"></div>
 
-	<!--Main Menu Start-->
-    <header class="header-section">
-    	
-        <!--Navigation Menu-->
-        <nav class="main-menu">
-        	<ul>
-        		<li class="menu-active"><a href="/">HOME</a><div class="hover-active"></div></li>
-        		{% for cat in site.categories %}
-            	<li><a href="">{{cat[0]}}</a><div class="hover-active"></div></li>
-            	{% endfor %}
-            </ul>
-        </nav>
-        
-        <div id="navbtn">
-            <a href="#">
-                <img src="images/hide-menu.png" alt="responsive menu" />
-            </a>
-        </div>
-        <!--Navigation Menu End-->
-        
-        <!--Logo-->
-        <div class="logo">
-        	<a href="index.html"><img src="images/logo.png" alt="logo" /></a>
-        </div>
-        <!--Logo End-->
-        
-        <!--Social Media-->
-        <nav class="social-main">
-        	<ul>
-            	<li><a href="#"><img src="images/social-icon/social-icon-facebook.png" alt="Facebook" onMouseOver="this.src='images/social-icon/social-icon-facebook-hover.png';" onMouseOut="this.src='images/social-icon/social-icon-facebook.png';" /></a></li>
-                <li><a href="#"><img src="images/social-icon/social-icon-twitter.png" alt="Twitter" onMouseOver="this.src='images/social-icon/social-icon-twitter-hover.png';" onMouseOut="this.src='images/social-icon/social-icon-twitter.png';" /></a></li>
-                <li><a href="#"><img src="images/social-icon/social-icon-pinterest.png" alt="Pinterest" onMouseOver="this.src='images/social-icon/social-icon-pinterest-hover.png';" onMouseOut="this.src='images/social-icon/social-icon-pinterest.png';" /></a></li>
-                <li><a href="#"><img src="images/social-icon/social-icon-google-plus.png" alt="Google Plus" onMouseOver="this.src='images/social-icon/social-icon-google-plus-hover.png';" onMouseOut="this.src='images/social-icon/social-icon-google-plus.png';" /></a></li>
-                <li><a href="#"><img src="images/social-icon/social-icon-feed.png" alt="Feed" onMouseOver="this.src='images/social-icon/social-icon-feed-hover.png';" onMouseOut="this.src='images/social-icon/social-icon-feed.png';" /></a></li>
-            </ul>
-        </nav>
-        <!--Social Media End-->
-        
-    </header>
-    <!--Main Menu End-->
-    
-    <!--All Content Start-->
-    <div class="wrapper">
-            
-            <!--Grid Top Area Start-->
-            <section class="container">
-            	{{ content }}
-            </section>
-            <!--Grid Top Area End-->
-       
-    </div>
-    <!--All Content End-->
-    
-    <div class="clearfix"></div>
-    
-    <!--Footer Start-->
-    <footer class="footer-section">
-    
-    	<!--Footer About Us-->
-    	<section class="footer-about">
-        	<div class="footer-content">
-                <figure>
-                    <img src="images/logo-footer.png" alt="footer logo" />
-                </figure>
-                <div class="footer-text">
-                    <br><p>Lorem ipsum dolor, consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p><br>
-                    <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
-                </div>
-            </div>
-        </section>
-        <!--Footer About Us End-->
-        
-        <!--Footer Contact-->
-        <section class="footer-contact">
-        	<h2 class="footer-title">CONTACT INFO</h2>
-        	<div class="footer-content">
-            	<ul>
-                	<li>
-                    	<div class="contact-list footer-text">
-                        	<span>Company Name<br>4884 Lilac Lane Statesboro, GA 30458</span>
-                        </div>
-                    </li>
-                    <li>
-                    	<div class="contact-list footer-text email">
-                        	<span>Email: info@yourdomain.com</span>
-                        </div>
-                    </li>
-                    <li>
-                    	<div class="contact-list footer-text phone">
-                        	<span>Phone: 111-123-456-9999</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!--Footer Contact End-->
-        
-        <!--Footer Subscribe-->
-        <section class="footer-subscribe">
-        	<h2 class="footer-title">NEWSLETTER</h2>
-        	<div class="footer-content">
-            	<div class="footer-text">
-                	<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                </div>
-                <div class="subscribe-box">
-                	<form>
-                    	<input class="first-name" type="text" name="firstname" placeholder="First name *" required />
-                        <input class="last-name" type="text" name="lastname" placeholder="Last name *" required />
-                        <input class="email" type="text" name="email" placeholder="Your email address *" required />
-                        <input class="subscribe-button" type="submit" value="SUBSCRIBE"/>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <!--Footer Subscribe End-->
-        
-        <div class="clearfix"></div>
-        
-        <!--Footer Bottom-->
-        <section class="footer-bottom">
-        	<div class="copyright">
-            	Copyright © All Rights Reserved. <a href="#">yourdomain.com</a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </section>
-        <!--Footer Bottom End-->
-        
-        <!--Go To Top-->
-        <a href="#" class="back-to-top"></a>
-        <!--End-->
-        
-    </footer>
-    <!--Footer End-->
 
-<script src="js/jquery.js" type="text/javascript"></script>
-<script type="text/javascript" language="javascript" charset="utf-8" src="js/menu.js"></script>
 
-<!--Placeholder Script-->
-<script src="js/placeholder.js" type="text/javascript"></script>
-<script type="text/javascript">
-$.fn.placeholder();
-</script>
+<!-- Begin Wrapper -->
+<div class="wrapper"><!-- Begin Intro -->
 
-<!--Banner Slider Script-->
-<script src="layerslider/jQuery/greensock.js" type="text/javascript"></script>
-<script src="layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
-<script src="layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+<div class="logo-home">
+	<a href="/"><img src="/images/logo.png" alt="{{ page.title }}" /></a>
+</div>
+<div class="intro">{{ site.description }}</div>
+<ul class="social">
+<li><a class="rss" href="/podcast.xml"></a></li><li><a class="facebook" href="http://fb.com/poligeek"></a></li><li><a class="twitter" href="http://twitter.com/poligeek"></a></li></ul><!-- End Intro --> 
 
-<script type="text/javascript">
-	$(document).ready(function(){
-		"use strict";
-		$('#layerslider').layerSlider({
-			skinsPath : 'layerslider/skins/',
-			skin : 'borderlessdark3d',
-			thumbnailNavigation : 'hover',
-			showCircleTimer : false,
-			showBarTimer : true,
-    		touchNav : true,
-			navStartStop : true,
-			animateFirstSlide : true,
-			responsive : true,
-		});
-		
-		// GO TO TOP SETTING
-		var offset = 220;
-		var duration = 500;
-		jQuery(window).scroll(function() {
-			if (jQuery(this).scrollTop() > offset) {
-				jQuery('.back-to-top').fadeIn(duration);
-			} else {
-				jQuery('.back-to-top').fadeOut(duration);
-			}
-		});
-		
-		jQuery('.back-to-top').click(function(event) {
-			event.preventDefault();
-			jQuery('html, body').animate({scrollTop: 0}, duration);
-			return false;
-		})
-	});		
-</script>
+{{ content }}
 
+</div>
+<!-- End Wrapper -->
+
+<!-- Begin Footer -->
+<div class="footer-wrapper">
+<div id="footer" class="four">
+		<div class="site-generator">Poligeek - CC by-nc-sa 3.0 FR</div>
+</div>	
+</div>
+<!-- End Footer --> 
+<script type="text/javascript" src="/js/scripts.js"></script>
 </body>
 </html>

@@ -3,11 +3,67 @@ layout: default
 title: Poligeek | Le podcast politique et tech
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="blog-wrap">
+	<!-- Begin Blog -->
+	<div class="blog-grid">
+		{% for post in paginator.posts %}
+			{% if post.layout == "show" %}
+				<!-- Begin Image Format -->
+				<div class="post format-audio box"> 
+					<div class="frame">
+						<a href="{{ post.url }}">
+							<img src="/images/covers/{{ post.cover }}" alt="{{ post.title }}" />
+						</a>
+					</div>
+					<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+					{{ post.excerpt }}
+					<div class="details">
+						<span class="icon-audio"><a href="#">{{ post.date | date_to_string }}</a></span>
+						<span class="likes"><a href="#" class="likeThis">44</a></span>
+						<span class="comments"><a href="#">3</a></span>
+					</div>
+				</div>
+				<!-- End Image Format -->
+			{% endif %}
+			
+			{% if post.layout == "post" %}
+				<!-- Begin Standard Format -->
+		 		<div class="post format-standard box"> 
+		
+					<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+					{{ post.excerpt }}
+			
+					<div class="details">
+						<span class="icon-standard"><a href="#">{{ post.date | date_to_string }}</a></span>
+						<span class="likes"><a href="#" class="likeThis">11</a></span>
+						<span class="comments"><a href="#">0</a></span>
+					</div>
+			
+				</div>
+				<!-- End Standard Format --> 
+			{% endif %}
+		{% endfor %}
+ 	</div>
+	<!-- End Blog -->
 </div>
+<!-- End Blog Grid -->
+
+<!-- Begin Page-navi -->
+{% if paginator.previous_page || paginator.next_page %}
+<div id="navigation">
+  	{% if paginator.previous_page %}
+  		{% if paginator.previous_page == 1 %}
+  		<div class="nav-previous"><a href="/" ><span class="meta-nav-prev">&larr; suivants</span></a></div>
+  		{% else %}
+  		<div class="nav-previous"><a href="/{{ paginator.previous_page }}" ><span class="meta-nav-prev">&larr; suivants</span></a></div>
+  		{% endif %}
+  	{% endif %}
+  	{% if paginator.next_page %}
+  	<div class="nav-next"><a href="/{{ paginator.next_page }}" ><span class="meta-nav-next">précédents &rarr;</span></a></div>
+	{% endif %}
+</div>
+{% endif %}
+<!-- End Page-navi --> 
+
+</div>
+

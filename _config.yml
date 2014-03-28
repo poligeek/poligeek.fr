@@ -1,5 +1,8 @@
 name: Poligeek
+description: 'Le podcast Politique et Tech !'
 markdown: redcarpet
 pygments: true
 exclude: ['Rakefile', 'README.md']
 permalink: /:categories/:title
+paginate: 20
+paginate_path: ":num"
