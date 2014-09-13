@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>{{ page.title }}</title>
+		<title>{% if page.number %}Poligeek #{{ page.number }} - {{ page.title}}{% endif %}{{ page.title }}</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -9,9 +9,9 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/skel.css" />
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/style-wide.css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}css/skel.css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}css/style.css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}css/style-wide.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
@@ -21,11 +21,11 @@
 		<!-- Banner -->
 			<div id="banner" class="container">
 				<section>
-					<p><a href="{{ site.baseurl }}"><img src="{{ site.url }}/images/logo.png" alt="Poligeek" /></a></p>
+					<p><a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}images/logo.png" alt="Poligeek" /></a></p>
 					<p>{{ site.description }}</p>
 					<p>
 						<a href="#" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-music"></span> Poligeek sur iTunes</a>
-						<a href="{{ site.baseurl }}/podcast.xml" class="btn btn-warning btn-lg"><span class="glyphicon glyphicon-play-circle"></span> S'abonner par RSS</a>
+						<a href="{{ site.baseurl }}podcast.xml" class="btn btn-warning btn-lg"><span class="glyphicon glyphicon-play-circle"></span> S'abonner par RSS</a>
 					</p>
 
 				</section>

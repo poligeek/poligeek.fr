@@ -1,0 +1,1258 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+<title>Poligeek</title>
+<description>
+Poligeek, c'est le podcast qui revient toutes les deux semaines sur l'essentiel de l'actualité politique autour des nouvelles technologies. Retrouvez dans chaque épisode les news et le grand débat, avec des invités passionnants ! Blog et plus d'infos sur www.poligeek.fr
+</description>
+<link>http://www.poligeek.fr</link>
+<language>fr-fr</language>
+<copyright>Creative commons by-nc-sa 3.0 FR</copyright>
+<lastBuildDate>Mon, 04 Jan 2013 23:30:00 +0200</lastBuildDate>
+<pubDate>Mon, 04 Jan 2013 23:30:00 +0200</pubDate>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+<webMaster>adhumi@gmail.com (Adrien Humilière)</webMaster>
+<itunes:author>Poligeek</itunes:author>
+<itunes:subtitle>
+Le podcast qui vous parle politique et technologies !
+</itunes:subtitle>
+<itunes:summary>
+Poligeek, c'est le podcast qui revient toutes les deux semaines sur l'essentiel de l'actualité politique autour des nouvelles technologies. Retrouvez dans chaque épisode les news et le grand débat, avec des invités passionnants ! Blog et plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:owner>
+<itunes:name>Adrien Humilière</itunes:name>
+<itunes:email>adhumi@gmail.com</itunes:email>
+</itunes:owner>
+<itunes:explicit>Clean</itunes:explicit>
+<itunes:image href="http://www.poligeek.fr/logo.png"/>
+<itunes:category text="News & Politics"/>
+<itunes:category text="Technology">
+<itunes:category text="Tech News"/>
+</itunes:category>
+<itunes:new-feed-url>http://feeds.feedburner.com/poligeek/podcast</itunes:new-feed-url>
+<itunes:keywords>poligeek, politique, technologie, geek</itunes:keywords>
+<ttl>30</ttl>
+<!--  EPISODE 49  -->
+<item>
+<title>#49 - Poligeek's breakdown ?</title>
+<link>http://www.poligeek.fr/project/49</link>
+<guid>
+http://feeds.soundcloud.com/stream/119852463-poligeek-poligeek49.m4a
+</guid>
+<description>
+Il était une fois Poligeek et Kultur Breakdown. Un jour ils décidèrent de faire une émission ensemble, pour parler de la politique dans la culture geek. Ils l'enregistrèrent sur le stand de Freepod pendant Comic Con Paris 2012. Les aléas de la technique podcastique firent que les sources audios devinrent inutilisables. Frustrés, ils décidèrent de retenter l'expérience un beau jour de décembre 2012. Le destin faisant toujours bien les choses, les sources furent perdues pendant de nombreux mois, avant d'êtres retrouvées il y a quelques jours ressuscitées !
+</description>
+<enclosure type="audio/x-m4a" url="http://feeds.soundcloud.com/stream/119852463-poligeek-poligeek49.mp3"/>
+<category>Podcasts</category>
+<pubDate>Wed, 13 Nov 2013 10:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>La politique dans la culture geek</itunes:subtitle>
+<itunes:summary>
+Il était une fois Poligeek et Kultur Breakdown. Un jour ils décidèrent de faire une émission ensemble, pour parler de la politique dans la culture geek. Ils l'enregistrèrent sur le stand de Freepod pendant Comic Con Paris 2012. Les aléas de la technique podcastique firent que les sources audios devinrent inutilisables. Frustrés, ils décidèrent de retenter l'expérience un beau jour de décembre 2012. Le destin faisant toujours bien les choses, les sources furent perdues pendant de nombreux mois, avant d'êtres retrouvées il y a quelques jours ressuscitées !
+</itunes:summary>
+<itunes:duration>1:28:15</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette49.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 50  -->
+<item>
+<title>#50 - Il était temps</title>
+<link>http://www.poligeek.fr/project/50</link>
+<guid>
+http://feeds.soundcloud.com/stream/84002842-poligeek-poligeek50.mp3
+</guid>
+<description>
+Un épisode en passant, enregistré il y a quelques temps déjà avec Alex, Antoine et Fabien. Une étape avant un (vrai) retour ? Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/84002842-poligeek-poligeek50.mp3" length="75200496"/>
+<category>Podcasts</category>
+<pubDate>Tue, 19 Mar 2013 10:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#50 - Il était temps</itunes:subtitle>
+<itunes:summary>
+Un épisode en passant, enregistré il y a quelques temps déjà avec Alex, Antoine et Fabien. Une étape avant un (vrai) retour ? Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:16:51</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette50.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 48  -->
+<item>
+<title>#48 - We'll be back !</title>
+<link>http://www.poligeek.fr/spip.php?article151</link>
+<guid>
+http://feeds.soundcloud.com/stream/83666600-poligeek-poligeek48.mp3
+</guid>
+<description>
+On est de retour ! Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83666600-poligeek-poligeek48.mp3" length="62225252"/>
+<category>Podcasts</category>
+<pubDate>Sat, 1 Dec 2012 8:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#48 - We'll be back !</itunes:subtitle>
+<itunes:summary>
+On est de retour ! Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:20:00</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette48.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 47  -->
+<item>
+<title>#47 - Poli - Tweuh - Oops</title>
+<link>http://www.poligeek.fr/spip.php?article151</link>
+<guid>
+http://feeds.soundcloud.com/stream/83672301-poligeek-poligeek47.mp3
+</guid>
+<description>
+Episode spécial news. Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83672301-poligeek-poligeek47.mp3" length="70029195"/>
+<category>Podcasts</category>
+<pubDate>Sun, 1 Jul 2012 8:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#47 - Poli - Tweuh - Oops</itunes:subtitle>
+<itunes:summary>
+Episode spécial news. Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:12:27</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette47.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 46  -->
+<item>
+<title>#46 - Francky Amsterdam</title>
+<link>http://www.poligeek.fr/spip.php?article151</link>
+<guid>
+http://feeds.soundcloud.com/stream/83693323-poligeek-poligeek46.mp3
+</guid>
+<description>
+Thème du grand débat : # Universités et internet Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83693323-poligeek-poligeek46.mp3" length="108862708"/>
+<category>Podcasts</category>
+<pubDate>Fri, 25 May 2012 8:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#46 - Francky Amsterdam</itunes:subtitle>
+<itunes:summary>
+Thème du grand débat : # Universités et internet Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:15:18</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette46.png"/>
+<itunes:keywords>politique, technologie, upmc, jussieu, aratta</itunes:keywords>
+</item>
+<!--  EPISODE 45  -->
+<item>
+<title>#45 - Trop tard</title>
+<link>http://www.poligeek.fr/spip.php?article151</link>
+<guid>
+http://feeds.soundcloud.com/stream/83773191-poligeek-poligeek45.mp3
+</guid>
+<description>
+Thème du grand débat : # Bilan du premier tour Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83773191-poligeek-poligeek45.mp3" length="124831436"/>
+<category>Podcasts</category>
+<pubDate>Sat, 5 May 2012 8:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#45 - Trop tard</itunes:subtitle>
+<itunes:summary>
+Thème du grand débat : # Bilan du premier tour Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:26:48</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette45.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 44b  -->
+<item>
+<title>#44b - Poligeek vs. Bazindroite</title>
+<link>http://www.poligeek.fr/spip.php?article151</link>
+<guid>
+http://feeds.soundcloud.com/stream/83773190-poligeek-poligeek44.mp3
+</guid>
+<description>
+On y cause : # D'HADOPI # De MEGA* Thème du grand débat : # Cross-over Bazingcast vs Poligeek Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83773190-poligeek-poligeek44.mp3" length="111938560"/>
+<category>Podcasts</category>
+<pubDate>Wed, 18 Apr 2012 8:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#44b - Poligeek vs. Bazindroite</itunes:subtitle>
+<itunes:summary>
+On y cause : # D'HADOPI # De MEGA* Thème du grand débat : # Cross-over Bazingcast vs Poligeek Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:56:35</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette43.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 43  -->
+<item>
+<title>#43 - Point org</title>
+<link>http://www.poligeek.fr/spip.php?article151</link>
+<guid>
+http://feeds.soundcloud.com/stream/83773189-poligeek-poligeek43.mp3
+</guid>
+<description>
+On y cause : # D’HADOPI # De SWTOR # De la campagne Thème du grand débat : # Voxe.org Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83773189-poligeek-poligeek43.mp3" length="66512416"/>
+<category>Podcasts</category>
+<pubDate>Wed, 14 Mar 2012 8:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#43 - Point org</itunes:subtitle>
+<itunes:summary>
+On y cause : # D’HADOPI # De SWTOR # De la campagne Thème du grand débat : # Voxe.org Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:08:48</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette43.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 42  -->
+<item>
+<title>#42 - Quarante-deux</title>
+<link>http://www.poligeek.fr/spip.php?article151</link>
+<guid>
+http://feeds.soundcloud.com/stream/83773188-poligeek-poligeek42.mp3
+</guid>
+<description>
+Bonne nouvelle : on accueille officiellement un petit nouveau dans l’équipe de Poligeek, c’est Alex ! On y cause de plein de choses, mais pas de grand débat aujourd’hui ! Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83773188-poligeek-poligeek42.mp3" length="73093908"/>
+<category>Podcasts</category>
+<pubDate>Sun, 26 Feb 2012 8:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#42 - Quarante-deux</itunes:subtitle>
+<itunes:summary>
+Bonne nouvelle : on accueille officiellement un petit nouveau dans l’équipe de Poligeek, c’est Alex ! On y cause de plein de choses, mais pas de grand débat aujourd’hui ! Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:15:56</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette42.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 41  -->
+<item>
+<title>#41 - Jeanne prend des calmants</title>
+<link>http://www.poligeek.fr/spip.php?article151</link>
+<guid>
+http://feeds.soundcloud.com/stream/83773186-poligeek-poligeek41.mp3
+</guid>
+<description>
+On y cause : # D’HADOPI # De MEGA* Thème du grand débat : #Le viellissement (1ere partie) Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83773186-poligeek-poligeek41.mp3" length="75509280"/>
+<category>Podcasts</category>
+<pubDate>Thu, 9 Feb 2012 8:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#41 - Jeanne prend des calmants</itunes:subtitle>
+<itunes:summary>
+On y cause : # D’HADOPI # De MEGA* Thème du grand débat : #Le viellissement (1ere partie) Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:18:26</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette41.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 40  -->
+<item>
+<title>#40 - Free[pod] is [no]watching you</title>
+<link>http://www.poligeek.fr/spip.php?article147</link>
+<guid>
+http://feeds.soundcloud.com/stream/83775786-poligeek-poligeek40.mp3
+</guid>
+<description>
+On y cause : # D’HADOPI # De filtrage DNS # De Free Mobile Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83775786-poligeek-poligeek40.mp3" length="57600409"/>
+<category>Podcasts</category>
+<pubDate>Thu, 19 Jan 2012 20:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#40 - Free[pod] is [no]watching you</itunes:subtitle>
+<itunes:summary>
+On y cause : # D’HADOPI # De filtrage DNS # De Free Mobile Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>0:59:26</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette40.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 39  -->
+<item>
+<title>#39 - Poutine bear</title>
+<link>http://www.poligeek.fr/spip.php?article145</link>
+<guid>
+http://feeds.soundcloud.com/stream/83776135-poligeek-poligeek39.mp3
+</guid>
+<description>
+On y cause : # Du CSA et d’HADOPI # De la campagne électorale # De Megaupload # De l’Inde # De la Russie Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83776135-poligeek-poligeek39.mp3" length="69946515"/>
+<category>Podcasts</category>
+<pubDate>Mon, 16 Jan 2012 23:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#39 - Poutine Bear</itunes:subtitle>
+<itunes:summary>
+On y cause : # Du CSA et d’HADOPI # De la campagne électorale # De Megaupload # De l’Inde # De la Russie Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:12:09</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette39.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 38  -->
+<item>
+<title>#38 - Révolutions !</title>
+<link>http://www.poligeek.fr/spip.php?article143</link>
+<guid>
+http://feeds.soundcloud.com/stream/83776758-poligeek-poligeek38.mp3
+</guid>
+<description>
+On y cause : # D’HADOPI (oui, c’est tout) Thème du grand débat : # Les révolutions arabes et le rôle d'internet Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83776758-poligeek-poligeek38.mp3" length="123589523"/>
+<category>Podcasts</category>
+<pubDate>Thu, 15 Dec 2011 08:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#38 - Révolutions !</itunes:subtitle>
+<itunes:summary>
+On y cause : # D’HADOPI (oui, c’est tout) Thème du grand débat : # Les révolutions arabes et le rôle d'internet Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:32:34</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette38.png"/>
+<itunes:keywords>
+politique, technologie, lemeb, epelboin, reflets.info
+</itunes:keywords>
+</item>
+<!--  EPISODE 37  -->
+<item>
+<title>#37 - Gare aux écrans !</title>
+<link>http://www.poligeek.fr/spip.php?article142</link>
+<guid>
+http://feeds.soundcloud.com/stream/83776978-poligeek-37-gare-aux-crans.mp3
+</guid>
+<description>
+On y cause : # D’un FAI municipal # Du CSA # De DoX UMP # De Wikileaks Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83776978-poligeek-37-gare-aux-crans.mp3" length="68621769"/>
+<category>Podcasts</category>
+<pubDate>Sun, 27 Nov 2011 23:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#37 - Gare aux écrans !</itunes:subtitle>
+<itunes:summary>
+On y cause : # D’un FAI municipal # Du CSA # De DoX UMP # De Wikileaks Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>0:50:28</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette37.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 36  -->
+<item>
+<title>#36 - Les normes podcast</title>
+<link>http://www.poligeek.fr/spip.php?article137</link>
+<guid>
+http://feeds.soundcloud.com/stream/83777346-poligeek-poligeek36.mp3
+</guid>
+<description>
+On y cause : # Des journées du numérique # D’HADOPI Thème du grand débat : # Les normes technologiques Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83777346-poligeek-poligeek36.mp3" length="111199204"/>
+<category>Podcasts</category>
+<pubDate>Wed, 8 Nov 2011 23:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#36 - Les normes podcast</itunes:subtitle>
+<itunes:summary>
+On y cause : # Des journées du numérique # D’HADOPI Thème du grand débat : # Les normes technologiques Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:28:33</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette36.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 35  -->
+<item>
+<title>#35 - L'ère précaire</title>
+<link>http://www.poligeek.fr/spip.php?article136</link>
+<guid>
+http://feeds.soundcloud.com/stream/83784122-poligeek-poligeek35.mp3
+</guid>
+<description>
+On y cause : # D’e-reputation # D’HADOPI Thème du grand débat : # Pauvreté, intégration et internet Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83784122-poligeek-poligeek35.mp3" length="119019722"/>
+<category>Podcasts</category>
+<pubDate>Fri, 21 Oct 2011 17:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#35 - L'ère précaire</itunes:subtitle>
+<itunes:summary>
+On y cause : # D’e-reputation # D’HADOPI Thème du grand débat : # Pauvreté, intégration et internet Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:34:09</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette35.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 34  -->
+<item>
+<title>#34 - Optimus Primaires</title>
+<link>http://www.poligeek.fr/spip.php?article135</link>
+<guid>
+http://feeds.soundcloud.com/stream/117083755-poligeek-poligeek34.mp3
+</guid>
+<description>
+On y cause : # De filtrage # D’HADOPI Thème du grand débat : # Le concept de Primaire Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/117083755-poligeek-poligeek34.mp3" length="96977133"/>
+<category>Podcasts</category>
+<pubDate>Fri, 14 Oct 2011 00:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#34 - Optimus Primaires</itunes:subtitle>
+<itunes:summary>
+On y cause : # De filtrage # D’HADOPI Thème du grand débat : # Le concept de Primaire Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:15:27</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette34.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 33  -->
+<item>
+<title>#33 - Here comes new challengers</title>
+<link>http://www.poligeek.fr/spip.php?article134</link>
+<guid>
+http://feeds.soundcloud.com/stream/117071421-poligeek-poligeek33.mp3
+</guid>
+<description>
+On y cause : # De tablettes tactiles # De RespectMyNet # D'HADOPI # De nossenateurs.fr # De la CNI électronique Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/117071421-poligeek-poligeek33.mp3" length="69572416"/>
+<category>Podcasts</category>
+<pubDate>Sun, 9 Oct 2011 8:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#33 - Here comes new challengers</itunes:subtitle>
+<itunes:summary>
+On y cause : # De tablettes tactiles # De RespectMyNet # D'HADOPI # De nossenateurs.fr # De la CNI électronique Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>0:54:20</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette33.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 32  -->
+<item>
+<title>#32 - @ voté !</title>
+<link>http://www.poligeek.fr/spip.php?article133</link>
+<guid>
+http://feeds.soundcloud.com/stream/117081950-poligeek-poligeek32.mp3
+</guid>
+<description>
+On y cause : # De la Syrie # Du Parti Pirate # D’HADOPI Thème du grand débat : # Le vote électronique Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/117081950-poligeek-poligeek32.mp3" length="64971699"/>
+<category>Podcasts</category>
+<pubDate>Wed, 28 Sep 2011 8:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#32 - @ voté !</itunes:subtitle>
+<itunes:summary>
+On y cause : # De la Syrie # Du Parti Pirate # D’HADOPI Thème du grand débat : # Le vote électronique Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:24:32</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette32.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 31  -->
+<item>
+<title>#31 - Poligeek sur CNN</title>
+<link>http://www.poligeek.fr/spip.php?article132</link>
+<guid>
+http://feeds.soundcloud.com/stream/117081383-poligeek-poligeek31.mp3
+</guid>
+<description>
+On y cause : # De la France en Libye # Du paquet telecom Thème du grand débat : # La rentrée numérique, avec Gilles Babinet Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/117081383-poligeek-poligeek31.mp3" length="133394009"/>
+<category>Podcasts</category>
+<pubDate>Sun, 11 Sep 2011 17:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#31 - Poligeek sur CNN</itunes:subtitle>
+<itunes:summary>
+On y cause : # De la France en Libye # Du paquet telecom Thème du grand débat : # La rentrée numérique, avec Gilles Babinet Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:29:40</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette31.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 30  -->
+<item>
+<title>#30 - HS - All Stars</title>
+<link>http://www.poligeek.fr/spip.php?article132</link>
+<guid>
+http://feeds.soundcloud.com/stream/117081830-poligeek-poligeek30.mp3
+</guid>
+<description>
+Dans cette émission très particulière de Poligeek, nous avons reçu quelques podcasteurs... et nous les avons mis à contribution ! Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/117081830-poligeek-poligeek30.mp3" length="152798050"/>
+<category>Podcasts</category>
+<pubDate>Mon, 1 Aug 2011 17:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#30 - HS - All Stars</itunes:subtitle>
+<itunes:summary>
+Dans cette émission très particulière de Poligeek, nous avons reçu quelques podcasteurs... et nous les avons mis à contribution ! Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>2:00:00</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette30.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 29  -->
+<item>
+<title>#29 - Les bons tuyaux d'internet</title>
+<link>http://www.poligeek.fr/spip.php?article130</link>
+<guid>
+http://feeds.soundcloud.com/stream/117077825-poligeek-poligeek29.mp3
+</guid>
+<description>
+On y cause : # Du Transparency Report # D’HADOPI Thème du grand débat : # La neutralité du net avec Laure de la Raudière et Felix Treguer Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/117077825-poligeek-poligeek29.mp3" length="0"/>
+<category>Podcasts</category>
+<pubDate>Tue, 7 Jul 2011 09:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#29 - Les bons tuyaux d'internet</itunes:subtitle>
+<itunes:summary>
+On y cause : # Du Transparency Report # D’HADOPI Thème du grand débat : # La neutralité du net avec Laure de la Raudière et Felix Treguer Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:40:00</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette29.png"/>
+<itunes:keywords>
+politique, technologie, neutralité du net, internet, neutrality
+</itunes:keywords>
+</item>
+<!--  EPISODE 28  -->
+<item>
+<title>#28 - iPleiade</title>
+<link>http://www.poligeek.fr/spip.php?article127</link>
+<guid>
+http://feeds.soundcloud.com/stream/117072942-poligeek-poligeek28.mp3
+</guid>
+<description>
+On y cause : # De l’Islande # De censure # De filtrage Thème du grand débat : # Le livre numérique et la question des droits d’auteurs Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/117072942-poligeek-poligeek28.mp3" length="93935912"/>
+<category>Podcasts</category>
+<pubDate>Sun, 26 Jun 2011 15:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#28 - iPleiade</itunes:subtitle>
+<itunes:summary>
+On y cause : # De l’Islande # De censure # De filtrage Thème du grand débat : # Le livre numérique et la question des droits d’auteurs Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:37:24</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette28.png"/>
+<itunes:keywords>
+politique, technologie, livre numerique, livre, snac
+</itunes:keywords>
+</item>
+<!--  EPISODE 27  -->
+<item>
+<title>#27 - Nucléaire : Come get some !</title>
+<link>http://www.poligeek.fr/spip.php?article125</link>
+<guid>
+http://feeds.soundcloud.com/stream/117072209-poligeek-poligeek27.mp3
+</guid>
+<description>
+On y cause : # D’HADOPI # De musique en streaming Thème du grand débat : # Le nucléaire et le politique énergétique Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/117072209-poligeek-poligeek27.mp3" length="82386296"/>
+<category>Podcasts</category>
+<pubDate>Wed, 15 Jun 2011 18:30:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#27 - Nucléaire : Come get some !</itunes:subtitle>
+<itunes:summary>
+On y cause : # D’HADOPI # De musique en streaming Thème du grand débat : # Le nucléaire et le politique énergétique Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:25:17</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette27.png"/>
+<itunes:keywords>
+politique, technologie, nucleaire, energie, ecologie, verts, eelv, areva, solaire, eolien, eolienne
+</itunes:keywords>
+</item>
+<!--  EPISODE 26  -->
+<item>
+<title>#26 - HACKuna matata</title>
+<link>http://www.poligeek.fr/spip.php?article122</link>
+<guid>
+http://feeds.soundcloud.com/stream/83395486-poligeek-poligeek26.mp3
+</guid>
+<description>
+On y cause : # De TMG # De La Poste Mobile # Du e-G8 Forum Thème du grand débat : # Hacking et politique, avec nos invités Babozor et Bluetouff Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83395486-poligeek-poligeek26.mp3" length="80026411"/>
+<category>Podcasts</category>
+<pubDate>Fri, 3 Jun 2011 21:15:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#26 - HACKuna matata</itunes:subtitle>
+<itunes:summary>
+On y cause : # De TMG # De La Poste Mobile # Du e-G8 Forum Thème du grand débat : # Hacking et politique, avec nos invités Babozor et Bluetouff Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:22:56</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette26.png"/>
+<itunes:keywords>
+politique, technologie, babozor, bluetouff, hack, hacking
+</itunes:keywords>
+</item>
+<!--  EPISODE 25  -->
+<item>
+<title>#25 - 2011, l'odyssée de l'espace</title>
+<link>http://www.poligeek.fr/spip.php?article116</link>
+<guid>
+http://feeds.soundcloud.com/stream/83394806-poligeek-poligeek25.mp3
+</guid>
+<description>
+On y cause : # De tarif social d'internet # Du livre numérique Thème du grand débat : # Politique spatiale Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83394806-poligeek-poligeek25.mp3" length="80938388"/>
+<category>Podcasts</category>
+<pubDate>Fri, 13 May 2011 13:53:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#25 - 2011, l'odyssée de l'espace</itunes:subtitle>
+<itunes:summary>
+On y cause : # De tarif social d'internet # Du livre numérique Thème du grand débat : # Politique spatiale Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:24:04</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette25.png"/>
+<itunes:keywords>politique, technologie, espace, cnes, ovni, seti</itunes:keywords>
+</item>
+<!--  EPISODE 24  -->
+<item>
+<title>#24 - Le carnet de santé USB</title>
+<link>http://www.poligeek.fr/spip.php?article115</link>
+<guid>
+http://feeds.soundcloud.com/stream/83394190-poligeek-poligeek24.mp3
+</guid>
+<description>
+On y cause : # De localisation # Du CNN # D'HADOPI Thème du grand débat : # Technologie et dépendance Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83394190-poligeek-poligeek24.mp3" length="83136847"/>
+<category>Podcasts</category>
+<pubDate>Sun, 8 May 2011 15:53:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#24 - Le carnet de santé USB</itunes:subtitle>
+<itunes:summary>
+On y cause : # De localisation # Du CNN # D'HADOPI Thème du grand débat : # Technologie et dépendance Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:26:11</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette24.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 23  -->
+<item>
+<title>#23 - Zéro de conduite !</title>
+<link>http://www.poligeek.fr/spip.php?article114</link>
+<guid>
+http://feeds.soundcloud.com/stream/83393705-poligeek-poligeek23.mp3
+</guid>
+<description>
+On y cause : # De la neutralité du net # Du Vatican Thème du grand débat : # Education et nouvelles technologies Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83393705-poligeek-poligeek23.mp3" length="89270988"/>
+<category>Podcasts</category>
+<pubDate>Thu, 21 Apr 2011 15:53:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#23 - Zéro de conduite !</itunes:subtitle>
+<itunes:summary>
+On y cause : # De la neutralité du net # Du Vatican Thème du grand débat : # Education et nouvelles technologies Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:32:41</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette23.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 22  -->
+<item>
+<title>#22 - There and back again</title>
+<link>http://www.poligeek.fr/spip.php?article110</link>
+<guid>
+http://feeds.soundcloud.com/stream/83393208-poligeek-poligeek22.mp3
+</guid>
+<description>
+On y cause : # Des élections cantonales # De l'attitude de la France vis-à-vis d'internet # De sommes icommensurables Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83393208-poligeek-poligeek22.mp3" length="39048244"/>
+<category>Podcasts</category>
+<pubDate>Wed, 30 Mar 2011 23:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#22 - There and back again</itunes:subtitle>
+<itunes:summary>
+On y cause : # Des élections cantonales # De l'attitude de la France vis-à-vis d'internet # De sommes icommensurables Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>0:40:20</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette22.png"/>
+<itunes:keywords>politique, technologie</itunes:keywords>
+</item>
+<!--  EPISODE 21  -->
+<item>
+<title>#21 - Copyright ton père</title>
+<link>http://www.poligeek.fr/spip.php?article105</link>
+<guid>
+http://feeds.soundcloud.com/stream/83393004-poligeek-poligeek21.mp3
+</guid>
+<description>
+On y cause : # De la LOPPSI # Du piratage de l’Etat français Thème du grand débat : # Le droit d’auteur Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83393004-poligeek-poligeek21.mp3" length="90534986"/>
+<category>Podcasts</category>
+<pubDate>Sat, 12 Mar 2011 14:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#21 - Copyright ton père</itunes:subtitle>
+<itunes:summary>
+On y cause : # De la LOPPSI # Du piratage de l’Etat français Thème du grand débat : # Le droit d’auteur Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:33:45</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette21.png"/>
+<itunes:keywords>
+politique, technologie, lordtonpere, ltp, droit d'auteur
+</itunes:keywords>
+</item>
+<!--  EPISODE 20  -->
+<item>
+<title>#20 - Le technofail des politiques</title>
+<link>http://www.poligeek.fr/spip.php?article103</link>
+<guid>
+http://feeds.soundcloud.com/stream/83392601-poligeek-poligeek20.mp3
+</guid>
+<description>
+On y cause : # D’anti-virus # Du blocage de sites aux US # D’identification en ligne Thème du grand débat : # L’influence d’internet sur le comportement des hommes politiques Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83392601-poligeek-poligeek20.mp3" length="88997238"/>
+<category>Podcasts</category>
+<pubDate>Sun, 27 Feb 2011 13:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#20 - Le technofail des politiques</itunes:subtitle>
+<itunes:summary>
+On y cause : # D’anti-virus # Du blocage de sites aux US # D’identification en ligne Thème du grand débat : # L’influence d’internet sur le comportement des hommes politiques Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:32:00</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette20.png"/>
+<itunes:keywords>
+politique, technologie, kaspersky, blocage, union, europe, europeenne
+</itunes:keywords>
+</item>
+<!--  EPISODE 19  -->
+<item>
+<title>#19 - La neutralité du kill switch</title>
+<link>http://www.poligeek.fr/spip.php?article100</link>
+<guid>
+http://feeds.soundcloud.com/stream/83392068-poligeek-poligeek19.mp3
+</guid>
+<description>
+On y cause : # Eric Besson # De censure du net # Une news de droite # De l’ARCEP # De l’éducation # De mixbeat # De Christian Paul Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83392068-poligeek-poligeek19.mp3" length="76596418"/>
+<category>Podcasts</category>
+<pubDate>Wed, 16 Feb 2011 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#19 - La neutralité du kill switch</itunes:subtitle>
+<itunes:summary>
+On y cause : # Eric Besson # De censure du net # Une news de droite # De l’ARCEP # De l’éducation # De mixbeat # De Christian Paul Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:19:07</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette19.png"/>
+<itunes:keywords>
+politique, technologie, besson, censure, arcep, net neutralité, neutrality
+</itunes:keywords>
+</item>
+<!--  EPISODE 18  -->
+<item>
+<title>#18 - Sega, GTA... même combat ?</title>
+<link>http://www.poligeek.fr/spip.php?article96</link>
+<guid>
+http://feeds.soundcloud.com/stream/83389947-poligeek-poligeek18.mp3
+</guid>
+<description>
+On y cause : # De grenades # De Google qui réchauffe Thème du grand débat : # Violence, dépendance et jeux vidéos Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83389947-poligeek-poligeek18.mp3" length="74172890"/>
+<category>Podcasts</category>
+<pubDate>Fri, 28 Jan 2011 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#18 - Sega, GTA... même combat ?</itunes:subtitle>
+<itunes:summary>
+On y cause : # De grenades # De Google qui réchauffe Thème du grand débat : # Violence, dépendance et jeux vidéos Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:16:51</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette18.png"/>
+<itunes:keywords>
+politique, technologie, tunisie, google, instant, jeux video, dependance, violence
+</itunes:keywords>
+</item>
+<!--  EPISODE 17  -->
+<item>
+<title>#17 - Barbie knows binary</title>
+<link>http://www.poligeek.fr/spip.php?article94</link>
+<guid>
+http://feeds.soundcloud.com/stream/83389175-poligeek-poligeek17.mp3
+</guid>
+<description>
+On y cause : # Du post # Du G8 du web Thème du grand débat : # Femmes, féminisme et technologies Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83389175-poligeek-poligeek17.mp3" length="74895859"/>
+<category>Podcasts</category>
+<pubDate>Mon, 17 Jan 2011 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#17 - Barbie knows binary</itunes:subtitle>
+<itunes:summary>
+On y cause : # Du post # Du G8 du web Thème du grand débat : # Femmes, féminisme et technologies Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:17:25</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette17.png"/>
+<itunes:keywords>
+politique, technologie, femmes, feminisme, le post, G8
+</itunes:keywords>
+</item>
+<!--  EPISODE 16  -->
+<item>
+<title>#16 - La dinde aux blogueurs</title>
+<link>http://www.poligeek.fr/spip.php?article87</link>
+<guid>
+http://feeds.soundcloud.com/stream/83383213-poligeek-poligeek16.mp3
+</guid>
+<description>
+On y cause : # De la loi LOPPSI 2 # De WikiLeaks et des anonymous # Du déjeuner Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83383213-poligeek-poligeek16.mp3" length="47162948"/>
+<category>Podcasts</category>
+<pubDate>Sun, 26 Dec 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#16 - La dinde aux blogueurs</itunes:subtitle>
+<itunes:summary>
+On y cause : # De la loi LOPPSI 2 # De WikiLeaks et des anonymous # Du déjeuner Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>0:48:41</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette16.png"/>
+<itunes:keywords>
+politique, technologie, LOPPSI, wikileaks, anonymous
+</itunes:keywords>
+</item>
+<!--  EPISODE 15  -->
+<item>
+<title>#15 - The leak is out there</title>
+<link>http://www.poligeek.fr/spip.php?article81</link>
+<guid>
+http://feeds.soundcloud.com/stream/83382841-poligeek-poligeek15.mp3
+</guid>
+<description>
+On y cause : # Du prix des forfaits internet # De la censure chez Google # De la censure sur Facebook Thème du grand débat : # Open Data et Wikileaks : des outils vers une meilleure démocratie ? Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83382841-poligeek-poligeek15.mp3" length="74570241"/>
+<category>Podcasts</category>
+<pubDate>Wed, 8 Dec 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#15 - The leak is out there</itunes:subtitle>
+<itunes:summary>
+On y cause : # Du prix des forfaits internet # De la censure chez Google # De la censure sur Facebook Thème du grand débat : # Open Data et Wikileaks : des outils vers une meilleure démocratie ? Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:16:59</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette15.png"/>
+<itunes:keywords>
+politique, technologie, forfaits, Orange, SFR, Free, Google, Facebook, democratie, wikileaks, opendata
+</itunes:keywords>
+</item>
+<!--  EPISODE 14  -->
+<item>
+<title>#14 - La bouilloire de Google</title>
+<link>http://www.poligeek.fr/spip.php?article75</link>
+<guid>
+http://feeds.soundcloud.com/stream/83382106-poligeek-poligeek14.mp3
+</guid>
+<description>
+On y cause : # La Google TV # De la mise à pied d’Audrey Pulvar Thème du grand débat : # Ecologie et nouvelles technologies : compatibles ? Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83382106-poligeek-poligeek14.mp3" length="82448054"/>
+<category>Podcasts</category>
+<pubDate>Sat, 27 Nov 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#14 - La bouilloire de Google</itunes:subtitle>
+<itunes:summary>
+On y cause : # La Google TV # De la mise à pied d’Audrey Pulvar Thème du grand débat : # Ecologie et nouvelles technologies : compatibles ? Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:25:14</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette14.png"/>
+<itunes:keywords>
+politique, technologie, google tv, itele, ecologie, green it
+</itunes:keywords>
+</item>
+<!--  EPISODE 13  -->
+<item>
+<title>#13 - La souveraineté des Schtroumpfs</title>
+<link>http://www.poligeek.fr/spip.php?article59</link>
+<guid>
+http://feeds.soundcloud.com/stream/83381789-poligeek-poligeek13.mp3
+</guid>
+<description>
+On y cause : # Des chômeurs anglais # De la potentielle fusion ARCEP/CSA/HADOPI Thème du grand débat : # L’adoption et le développement de logiciels alternatif au "made in USA" par différents pays : garant de la souveraineté nationale ? Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83381789-poligeek-poligeek13.mp3" length="73576714"/>
+<category>Podcasts</category>
+<pubDate>Sat, 11 Nov 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#13 - La souveraineté des Schtroumpfs</itunes:subtitle>
+<itunes:summary>
+On y cause : # Des chômeurs anglais # De la potentielle fusion ARCEP/CSA/HADOPI Thème du grand débat : # L’adoption et le développement de logiciels alternatif au "made in USA" par différents pays : garant de la souveraineté nationale ? Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:15:56</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette13.png"/>
+<itunes:keywords>
+politique, technologie, hadopi, europe, sarkozy, woerth, bettencourt, identitee, nationale, free, iphone
+</itunes:keywords>
+</item>
+<!--  EPISODE 12  -->
+<item>
+<title>#12 - L'homme qui valait 500 000</title>
+<link>http://www.poligeek.fr/spip.php?article49</link>
+<guid>
+http://feeds.soundcloud.com/stream/83381472-poligeek-12-lhomme-qui-valait-500-000.mp3
+</guid>
+<description>
+On y cause : # Des pirates de l'espace # De tout le bien qu'on pense de Benjamin Lancar # De Télémédecine Thème du grand débat : # Le livre numérique Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83381472-poligeek-12-lhomme-qui-valait-500-000.mp3" length="81805480"/>
+<category>Podcasts</category>
+<pubDate>Fri, 29 Oct 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#12 - L'homme qui valait 500 000</itunes:subtitle>
+<itunes:summary>
+On y cause : # Des pirates de l'espace # De tout le bien qu'on pense de Benjamin Lancar # De Télémédecine Thème du grand débat : # Le livre numérique Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:24:36</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette12.png"/>
+<itunes:keywords>
+politique, technologie, retraites, hadopi, europe, sarkozy, ebook, epub, livre
+</itunes:keywords>
+</item>
+<!--  EPISODE 11  -->
+<item>
+<title>#11 - Terminator V</title>
+<link>http://www.poligeek.fr/spip.php?article44</link>
+<guid>
+http://feeds.soundcloud.com/stream/83381107-poligeek-11-terminator-v.mp3
+</guid>
+<description>
+On y cause : # Du droit à l’oubli # De Jérome Kerviel # De la réforme du système bancaire # Une énième fois d’HADOPI Thème du grand débat : # La bioéthique Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83381107-poligeek-11-terminator-v.mp3" length="82367958"/>
+<category>Podcasts</category>
+<pubDate>Thu, 14 Oct 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#11 - Terminator V</itunes:subtitle>
+<itunes:summary>
+On y cause : # Du droit à l’oubli # De Jérome Kerviel # De la réforme du système bancaire # Une énième fois d’HADOPI Thème du grand débat : # La bioéthique Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:25:28</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette11.png"/>
+<itunes:keywords>
+politique, technologie, europe, kerviel, societe generale, hadopi, bioethique, biotech, biotechnologie
+</itunes:keywords>
+</item>
+<!--  EPISODE 10  -->
+<item>
+<title>#10 - La menace fantôme</title>
+<link>http://www.poligeek.fr/spip.php?article39</link>
+<guid>
+http://feeds.soundcloud.com/stream/83380330-poligeek-poligeek10.mp3
+</guid>
+<description>
+On y cause : # De la Haute Autorité # De bombes # De Free # Des apps iOS des hommes et femmes politiques Thème du grand débat : # Nation et identité à l’heure d’Internet Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83380330-poligeek-poligeek10.mp3" length="75349601"/>
+<category>Podcasts</category>
+<pubDate>Tue, 28 Sep 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#10 - La menace fantôme</itunes:subtitle>
+<itunes:summary>
+On y cause : # De la Haute Autorité # De bombes # De Free # Des apps iOS des hommes et femmes politiques Thème du grand débat : # Nation et identité à l’heure d’Internet Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:18:29</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette10.png"/>
+<itunes:keywords>
+politique, technologie, hadopi, google bombing, free, application, app, iphone, internet, identité nationale
+</itunes:keywords>
+</item>
+<!--  EPISODE 9  -->
+<item>
+<title>#9 - Un épisode innovant</title>
+<link>http://www.poligeek.fr/spip.php?article30</link>
+<guid>
+http://feeds.soundcloud.com/stream/83379938-poligeek-poligeek9.mp3
+</guid>
+<description>
+On y cause : # D'ACTA # Des expulsions # De la LOPPSI 2 Thème du grand débat : # Etat des lieux de l'innovation Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83379938-poligeek-poligeek9.mp3" length="92353891"/>
+<category>Podcasts</category>
+<pubDate>Sat, 11 Sep 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#9 - Un épisode innovant</itunes:subtitle>
+<itunes:summary>
+On y cause : # D'ACTA # Des expulsions # De la LOPPSI 2 Thème du grand débat : # Etat des lieux de l'innovation Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:16:09</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette9.png"/>
+<itunes:keywords>
+politique, technologie, acta, eric besson, hortefeux, loppsi, innovation
+</itunes:keywords>
+</item>
+<!--  EPISODE 8  -->
+<item>
+<title>#8 - La retraite des marmottes</title>
+<link>http://www.poligeek.fr/spip.php?article30</link>
+<guid>
+http://feeds.soundcloud.com/stream/83379506-poligeek-8-la-retraite-des-marmottes.mp3
+</guid>
+<description>
+On y cause : # De Wikileaks # Des verts Thème du grand débat : # La réforme des retraites Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83379506-poligeek-8-la-retraite-des-marmottes.mp3" length="103273164"/>
+<category>Podcasts</category>
+<pubDate>Wed, 25 Aug 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#8 - La retraite des marmottes</itunes:subtitle>
+<itunes:summary>
+On y cause : # De Wikileaks # Des verts Thème du grand débat : # La réforme des retraites Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:26:01</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette8.png"/>
+<itunes:keywords>
+politique, technologie, retraites, wikileaks, verts, europe ecologie, sarkozy, woerth, bettencourt
+</itunes:keywords>
+</item>
+<!--  EPISODE 7  -->
+<item>
+<title>#7 - Verizon de nous censurer</title>
+<link>http://www.poligeek.fr/spip.php?article15</link>
+<guid>
+http://feeds.soundcloud.com/stream/83378826-poligeek-poligeek7.mp3
+</guid>
+<description>
+On y cause : # Du racisme d’état # De "l’affaire" Blackberry # Du franglais Thème du grand débat : # La neutralité du net est-elle menacée ? Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83378826-poligeek-poligeek7.mp3" length="94325703"/>
+<category>Podcasts</category>
+<pubDate>Thu, 12 Aug 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#7 - Verizon de nous censurer</itunes:subtitle>
+<itunes:summary>
+On y cause : # Du racisme d’état # De "l’affaire" Blackberry # Du franglais Thème du grand débat : # La neutralité du net est-elle menacée ? Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:18:33</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette7.png"/>
+<itunes:keywords>
+politique, technologie, racisme, blackberry, franglais, neutralité, neutrality, net
+</itunes:keywords>
+</item>
+<!--  EPISODE 6  -->
+<item>
+<title>#6 - Souriez, vous êtes filmés</title>
+<link>http://www.poligeek.fr/spip.php?article14</link>
+<guid>
+http://feeds.soundcloud.com/stream/83378301-poligeek-poligeek6.mp3
+</guid>
+<description>
+On y cause : # De jeux vidéos # Des roms # De l'anonymat sur le net # D'Hadopi Thème du grand débat : # La videosurveillance, ses enjeux, ses problèmes Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83378301-poligeek-poligeek6.mp3" length="89016607"/>
+<category>Podcasts</category>
+<pubDate>Thu, 29 Jul 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#6 - Souriez, vous êtes filmés</itunes:subtitle>
+<itunes:summary>
+On y cause : # De jeux vidéos # Des roms # De l'anonymat sur le net # D'Hadopi Thème du grand débat : # La videosurveillance, ses enjeux, ses problèmes Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:14:08</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette6.png"/>
+<itunes:keywords>
+politique, technologie, hadopi, roms, anonymat, videosurveillance, surveillance, big brother
+</itunes:keywords>
+</item>
+<!--  EPISODE 5  -->
+<item>
+<title>#5 - A l'abordage !</title>
+<link>http://www.poligeek.fr/spip.php?article13</link>
+<guid>
+http://feeds.soundcloud.com/stream/83377600-poligeek-poligeek5.mp3
+</guid>
+<description>
+On y cause : # De la neutralité du net # Du "retour" de Google en Chine # Du coût de la lutte contre le piratage Thème du grand débat : # Faut-il un parti des geeks/internautes/pirates ? Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83377600-poligeek-poligeek5.mp3" length="77177154"/>
+<category>Podcasts</category>
+<pubDate>Thu, 16 Jul 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#5 - A l'abordage !</itunes:subtitle>
+<itunes:summary>
+On y cause : # De la neutralité du net # Du "retour" de Google en Chine # Du coût de la lutte contre le piratage Thème du grand débat : # Faut-il un parti des geeks/internautes/pirates ? Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:20:20</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette5.png"/>
+<itunes:keywords>
+politique, technologie, parti pirate, geek, controle
+</itunes:keywords>
+</item>
+<!--  EPISODE 4  -->
+<item>
+<title>#4 - L'internet du Futur</title>
+<link>http://www.poligeek.fr/spip.php?article12</link>
+<guid>
+http://feeds.soundcloud.com/stream/83377060-poligeek-poligeek4.mp3
+</guid>
+<description>
+On y cause : # De la réforme des retraites # De l’europe et des moteurs de recherche # De l’Equipe de France Thème du grand débat : # Comment les politiques voient internet Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83377060-poligeek-poligeek4.mp3" length="91321314"/>
+<category>Podcasts</category>
+<pubDate>Thu, 24 Jun 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#4 - L'internet du Futur</itunes:subtitle>
+<itunes:summary>
+On y cause : # De la réforme des retraites # De l’europe et des moteurs de recherche # De l’Equipe de France Thème du grand débat : # Comment les politiques voient internet Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:03:23</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette4.png"/>
+<itunes:keywords>
+politique, technologie, democratie, internet, controle
+</itunes:keywords>
+</item>
+<!--  EPISODE 3  -->
+<item>
+<title>#3 - L'informatique est aveugle ?</title>
+<link>http://www.poligeek.fr/spip.php?article11</link>
+<guid>
+http://feeds.soundcloud.com/stream/83376684-poligeek-poligeek3.mp
+</guid>
+<description>
+On y cause : # Des frontières de l’Europe # Des pirates # De Foxconn Thème du grand débat : # Le monde du logiciel libre Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83376684-poligeek-poligeek3.mp3" length="75880538"/>
+<category>Podcasts</category>
+<pubDate>Wed, 9 Jun 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#3 - L'informatique est aveugle ?</itunes:subtitle>
+<itunes:summary>
+On y cause : # Des frontières de l’Europe # Des pirates # De Foxconn Thème du grand débat : # Le monde du logiciel libre Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>0:52:39</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette3.png"/>
+<itunes:keywords>politique, technologie, logiciel, libre</itunes:keywords>
+</item>
+<!--  EPISODE 2  -->
+<item>
+<title>#2 - Le Capitaine des Bisounours</title>
+<link>http://www.poligeek.fr/spip.php?article10</link>
+<guid>
+http://feeds.soundcloud.com/stream/83346770-poligeek-poligeek2.mp3
+</guid>
+<description>
+On y cause : # Des biocarburants # Des apéros "géants" et des autorités # D'un projet de loi d'éradication de l'anonymat des blogs non-professionels Et dans le "grand débat" : # La vie privée et la protection des données personnelles. Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83346770-poligeek-poligeek2.mp3" length="83364257"/>
+<category>Podcasts</category>
+<pubDate>Thu, 27 May 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#2 - Le Capitaine des Bisounours</itunes:subtitle>
+<itunes:summary>
+On y cause : # Des biocarburants # Des apéros "géants" et des autorités # D'un projet de loi d'éradication de l'anonymat des blogs non-professionels Et dans le "grand débat" : # La vie privée et la protection des données personnelles. Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>0:57:51</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette2.png"/>
+<itunes:keywords>
+politique, technologie, vie privée, facebook, données personelles
+</itunes:keywords>
+</item>
+<!--  EPISODE 1  -->
+<item>
+<title>#1 - Les transitions de mauvais goût</title>
+<link>http://www.poligeek.fr/spip.php?article9</link>
+<guid>
+http://feeds.soundcloud.com/stream/83345949-poligeek-poligeek1.mp3
+</guid>
+<description>
+On y cause : # South Park et la religion # "L’affaire Gizmodo" : le journalisme en question ? # Vers une augmentation du prix des forfaits internet Et dans le "grand débat" : # La démocratie à l’heure d’Internet Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83345949-poligeek-poligeek1.mp3" length="89454326"/>
+<category>Podcasts</category>
+<pubDate>Thu, 13 May 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#1 - Les transitions de mauvais goût</itunes:subtitle>
+<itunes:summary>
+On y cause : # South Park et la religion # "L’affaire Gizmodo" : le journalisme en question ? # Vers une augmentation du prix des forfaits internet Et dans le "grand débat" : # La démocratie à l’heure d’Internet Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:02:05</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette1.png"/>
+<itunes:keywords>politique, technologie, democratie, internet</itunes:keywords>
+</item>
+<!--  EPISODE 0  -->
+<item>
+<title>#0 - Le ventilo du Captain Liban</title>
+<link>http://www.poligeek.fr/spip.php?article4</link>
+<guid>
+http://feeds.soundcloud.com/stream/83345113-poligeek-poligeek0.mp3
+</guid>
+<description>
+On y cause : # Les scarabés et le Vatican # L’ACTA dévoilé # Couvre-feu sur les Meuporgs # SeedFuck Hadopi !? Et dans le "grand débat" : # Les droits d’auteurs et la rémunération des artistes Plus d'infos sur www.poligeek.fr
+</description>
+<enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/83345113-poligeek-poligeek0.mp3" length="30914537"/>
+<category>Podcasts</category>
+<pubDate>Thu, 22 Apr 2010 15:00:00 +0200</pubDate>
+<itunes:author>Poligeek</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>#0 - Le ventilo du Captain Liban</itunes:subtitle>
+<itunes:summary>
+On y cause : # Les scarabés et le Vatican # L’ACTA dévoilé # Couvre-feu sur les Meuporgs # SeedFuck Hadopi !? Et dans le "grand débat" : # Les droits d’auteurs et la rémunération des artistes Plus d'infos sur www.poligeek.fr
+</itunes:summary>
+<itunes:duration>1:04:17</itunes:duration>
+<itunes:image href="http://upload.poligeek.fr/PNG/Jacquette0.png"/>
+<itunes:keywords>
+politique, technologie, droits, auteurs, majors, acta, hadopi
+</itunes:keywords>
+</item>
+</channel>
+</rss>

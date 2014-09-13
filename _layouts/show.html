@@ -5,7 +5,7 @@ layout: default
 <div id="page" class="container small">
 	<section>
 		<header class="major">
-			<h2>{{ page.title }}</h2>
+			<h2>{% if page.number %}#{{ page.number }} - {% endif %}{{ page.title }}</h2>
 			<span class="byline">{{ page.date | date_to_string }}</span>
 		</header>
 
