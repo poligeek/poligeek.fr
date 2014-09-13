@@ -382,34 +382,7 @@
 			color: #FFF;
 		}
 
-/* Tables */
 
-	table {
-		width: 100%;
-	}
-
-		table.default {
-			width: 100%;
-		}
-
-			table.default tbody tr {
-				border-bottom: solid 1px #888888;
-			}
-
-			table.default td {
-				padding: 0.5em 1em 0.5em 1em;
-			}
-
-			table.default th {
-				font-weight: 700;
-				padding: 0.5em 1em 0.5em 1em;
-				text-align: left;
-			}
-
-			table.default thead {
-				background: #555555;
-				color: #fff;
-			}
 
 /* Button */
 
@@ -629,4 +602,58 @@
 		border: 1px solid #555;
 		border-top: 0px;
 		border-radius: 0px 0px 6px 6px;
+	}
+
+	.more-episodes {
+		margin-top:40px;
+		background: #222;
+		border: 1px solid #555;
+		border-radius: 6px 6px 6px 6px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.more-episodes table {
+		margin: 0px;
+	}
+
+	.more-episodes table.table tr:first-child td {
+		border: 0px;
+	}
+
+	.more-episodes table.table td {
+		border-top: 1px solid #555;
+		vertical-align: center !important;
+		padding-bottom: 6px;
+	}
+
+	.more-episodes table.table td:first-child a {
+		color: #FFF;
+		font-weight: 300;
+		font-size: 1.5em;
+	}
+
+	.more-episodes table.table td:first-child {
+		padding-left: 0px;
+	}
+
+	.more-episodes table.table td:last-child {
+		padding-right: 0px;
+	}
+
+	.more-episodes table.table td:first-child a:hover {
+		color: #CCC;
+		text-decoration: none;
+	}
+
+	a IMG:hover {
+		opacity: 0.7;
+	}
+
+	#banner p {
+		margin: 0px;
+	}
+
+	.wrapper.style1 {
+		padding-top: 1em;
 	}

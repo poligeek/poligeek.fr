@@ -3,34 +3,45 @@ layout: default
 title: Poligeek | Le podcast politique et tech
 ---
 
-<!-- Banner -->
-	<div id="banner" class="container">
-		<section>
-			<p>{{ site.description }}</p>
-<!-- 							<a href="#" class="button medium">Read More</a> -->
-		</section>
-	</div>
-
 <!-- Extra -->
 	<div id="extra">
 		<div class="container">
-			{% for post in site.posts %}
-			{% assign loopindex = forloop.index | modulo: 3 %}
-			{% if loopindex == 1 %}
 			<div class="row no-collapse-1">
-			{% endif %}
-				<section class="4u"> <a href="{{ post.url }}" class="image featured"><img src="/images/covers/{{ post.cover }}" alt="{{ post.title }}"></a>
+			{% for post in site.posts limit:3 %}
+				<section class="4u"> <a href="{{ post.url }}" class="image featured"><img src="{{ site.baseurl }}/images/covers/{{ post.cover }}" alt="{{ post.title }}"></a>
 					<div class="box">
-<!-- 						<p>{{ post.excerpt }}</p> -->
-<!-- 						<a href="#" class="button">Ecouter</a> -->
-						<a href="{{ post.url }}" class="btn btn-sm btn-warning"><span class="glyphicon glyphicon-headphones"></span> Ecouter</a>
+ 						<a href="{{ post.url }}" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-headphones"></span> Ecouter</a>
 						<a href="{{ post.download_url }}" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-download-alt"></span> Télécharger</a>
-						<a href="{{ post.url }}" class="btn btn-sm btn-info"><span class="glyphicon glyphicon-info-sign"></span> Plus d'infos</a>
 					</div>
 				</section>
-			{% if loopindex == 0 %}
-			</div>
-			{% endif %}
 			{% endfor %}
 		</div>
 	</div>
+
+	<div id="main">
+		<div class="container">
+			<div class="row">
+				<div class="-2u 8u">
+					<div class="more-episodes">
+						<table class="table">
+						{% for post in site.posts offset:3 %}
+							<tr>
+								<td><a href="{{ post.url }}" class="episode-theme" data-toggle="tooltip" title="{{ post.theme_debat }}">{% if post.number %}#{{ post.number }} - {% endif %}{{ post.title }}</a></td>
+								<td class="text-right">
+									<a href="{{ post.url }}" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-headphones"></span> Ecouter</a>
+									<a href="{{ post.download_url }}" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-download-alt"></span> Télécharger</a>
+								</td>
+							</tr>
+						{% endfor %}
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script>
+$('.episode-theme').tooltip({'animation':true, 'placement':'right'});
+</script>
