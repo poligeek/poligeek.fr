@@ -1,62 +1,135 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<title>{{ page.title }}</title>
-<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/custom.css" />
-<link rel="stylesheet" type="text/css" href="/css/media-queries.css" />
-<link rel="stylesheet" type="text/css" href="/js/player/mediaelementplayer.css" />
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300,700,700italic|Open+Sans+Condensed:300,700' rel="stylesheet" type='text/css'>
-<!--[if IE 8]>
-<link rel="stylesheet" type="text/css" href="/css/ie8.css" media="all" />
-<![endif]-->
-<!--[if IE 9]>
-<link rel="stylesheet" type="text/css" href="/css/ie9.css" media="all" />
-<![endif]-->
-<script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
-<script type="text/javascript" src="/js/ddsmoothmenu.js"></script>
-<script type="text/javascript" src="/js/retina.js"></script>
-<script type="text/javascript" src="/js/selectnav.js"></script>
-<script type="text/javascript" src="/js/jquery.masonry.min.js"></script>
-<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
-<script type="text/javascript" src="/js/jquery.backstretch.min.js"></script>
-<script type="text/javascript" src="/js/mediaelement.min.js"></script>
-<script type="text/javascript" src="/js/mediaelementplayer.min.js"></script>
-<script type="text/javascript" src="/js/jquery.dcflickr.1.0.js"></script>
-<script type="text/javascript" src="/js/twitter.min.js"></script>
-<script type="text/javascript">
-	$.backstretch("/images/bg/bg.jpg");
-</script>
-</head>
-<body>
-<div class="scanlines"></div>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/jquery.dropotron.min.js"></script>
+		<script src="/js/skel.min.js"></script>
+		<script src="/js/skel-layers.min.js"></script>
+		<script src="/js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="/css/skel.css" />
+			<link rel="stylesheet" href="/css/style.css" />
+			<link rel="stylesheet" href="/css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
 
-<!-- Begin Wrapper -->
-<div class="wrapper"><!-- Begin Intro -->
+		<!-- Wrapper -->
+			<div class="wrapper style1">
+				<a href="/">Home</a>
 
-<div class="logo-home">
-	<a href="/"><img src="/images/logo.png" alt="{{ page.title }}" /></a>
-</div>
-<div class="intro">{{ site.description }}</div>
-<ul class="social">
-<li><a class="rss" href="/podcast.xml"></a></li><li><a class="facebook" href="http://fb.com/poligeek"></a></li><li><a class="twitter" href="http://twitter.com/poligeek"></a></li></ul><!-- End Intro --> 
+				<!-- Header -->
+<!-- 					<div id="header" class="skel-panels-fixed">
+						<div id="logo">
+							<h1><a href="index.html">Phase Shift</a></h1>
+							<span class="tag">by TEMPLATED</span>
+						</div>
+						<nav id="nav">
+							<ul>
+								<li class="active"><a href="index.html">Homepage</a></li>
+								<li><a href="left-sidebar.html">Left Sidebar</a></li>
+								<li><a href="right-sidebar.html">Right Sidebar</a></li>
+								<li><a href="no-sidebar.html">No Sidebar</a></li>
+							</ul>
+						</nav>
+					</div> -->
 
-{{ content }}
+				{{ content }}
 
-</div>
-<!-- End Wrapper -->
+				<!-- Main -->
+<!-- 					<div id="main">
+						<div class="container">
+							<div class="row">
 
-<!-- Begin Footer -->
-<div class="footer-wrapper">
-<div id="footer" class="four">
-		<div class="site-generator">Poligeek - CC by-nc-sa 3.0 FR</div>
-</div>	
-</div>
-<!-- End Footer --> 
-<script type="text/javascript" src="/js/scripts.js"></script>
-</body>
+								<div class="6u">
+									<section>
+										<ul class="style">
+											<li class="fa fa-wrench">
+												<h3>Integer ultrices</h3>
+												<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span> </li>
+											<li class="fa fa-leaf">
+												<h3>Aliquam luctus</h3>
+												<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span> </li>
+										</ul>
+									</section>
+								</div>
+								<div class="6u">
+									<section>
+										<ul class="style">
+											<li class="fa fa-cogs">
+												<h3>Integer ultrices</h3>
+												<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span> </li>
+											<li class="fa fa-road">
+												<h3>Aliquam luctus</h3>
+												<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span> </li>
+										</ul>
+									</section>
+								</div>
+							</div>
+						</div>
+					</div> -->
+
+	</div>
+
+	<!-- Footer -->
+<!-- 		<div id="footer" class="wrapper style2">
+			<div class="container">
+				<section>
+					<header class="major">
+						<h2>Mauris vulputate dolor</h2>
+						<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+					</header>
+					<form method="post" action="#">
+						<div class="row half">
+							<div class="12u">
+								<input class="text" type="text" name="name" id="name" placeholder="Name" />
+							</div>
+						</div>
+						<div class="row half">
+							<div class="12u">
+								<input class="text" type="text" name="email" id="email" placeholder="Email" />
+							</div>
+						</div>
+						<div class="row half">
+							<div class="12u">
+								<textarea name="message" id="message" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="row half">
+							<div class="12u">
+								<ul class="actions">
+									<li>
+										<input type="submit" value="Send Message" class="button alt" />
+									</li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</section>
+			</div>
+		</div> -->
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				<div class="copyright">
+					<p>Poligeek est disponible sous licence Creative Commons BY-NC-SA 2.0</p>
+					<ul class="icons">
+						<li><a href="http://fb.com/poligeek" class="fa fa-facebook"><span>Facebook</span></a></li>
+						<li><a href="http://twitter.com/poligeek" class="fa fa-twitter"><span>Twitter</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</body>
 </html>

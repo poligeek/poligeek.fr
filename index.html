@@ -3,72 +3,34 @@ layout: default
 title: Poligeek | Le podcast politique et tech
 ---
 
-<div class="blog-wrap">
-	<!-- Begin Blog -->
-	<div class="blog-grid">
-		{% for post in paginator.posts %}
-			{% if post.layout == "show" %}
-				<!-- Begin Audio Format -->
-				<div class="post format-audio box"> 
-					<div class="frame">
-						<a href="{{ post.url }}">
-							<img src="/images/covers/{{ post.cover }}" alt="{{ post.title }}" />
-						</a>
-					</div>
-					<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-					{{ post.excerpt }}
-					<div class="details">
-						<span class="icon-audio"><a href="{{ post.url }}">{{ post.date | date_to_string }}</a></span>
-					</div>
-				</div>
-				<!-- End Image Format -->
+<!-- Banner -->
+	<div id="banner" class="container">
+		<section>
+			<p>{{ site.description }}</p>
+<!-- 							<a href="#" class="button medium">Read More</a> -->
+		</section>
+	</div>
+
+<!-- Extra -->
+	<div id="extra">
+		<div class="container">
+			{% for post in site.posts %}
+			{% assign loopindex = forloop.index | modulo: 3 %}
+			{% if loopindex == 1 %}
+			<div class="row no-collapse-1">
 			{% endif %}
-			
-			{% if post.layout == "post" %}
-				<!-- Begin Standard Format -->
-		 		<div class="post format-standard box"> 
-		
-					<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-					{{ post.excerpt }}
-			
-					<div class="details">
-						<span class="icon-standard"><a href="{{ post.url }}">{{ post.date | date_to_string }}</a></span>
+				<section class="4u"> <a href="{{ post.url }}" class="image featured"><img src="/images/covers/{{ post.cover }}" alt="{{ post.title }}"></a>
+					<div class="box">
+<!-- 						<p>{{ post.excerpt }}</p> -->
+<!-- 						<a href="#" class="button">Ecouter</a> -->
+						<a href="{{ post.url }}" class="btn btn-sm btn-warning"><span class="glyphicon glyphicon-headphones"></span> Ecouter</a>
+						<a href="{{ post.download_url }}" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-download-alt"></span> Télécharger</a>
+						<a href="{{ post.url }}" class="btn btn-sm btn-info"><span class="glyphicon glyphicon-info-sign"></span> Plus d'infos</a>
 					</div>
-			
-				</div>
-				<!-- End Standard Format --> 
+				</section>
+			{% if loopindex == 0 %}
+			</div>
 			{% endif %}
-		{% endfor %}
- 	</div>
-	<!-- End Blog -->
-</div>
-<!-- End Blog Grid -->
-
-<!-- Begin Page-navi -->
-{% if paginator.previous_page || paginator.next_page %}
-<div id="navigation">
-  	{% if paginator.previous_page %}
-  		{% if paginator.previous_page == 1 %}
-  		<div class="nav-previous"><a href="/" ><span class="meta-nav-prev">&larr; suivants</span></a></div>
-  		{% else %}
-  		<div class="nav-previous"><a href="/{{ paginator.previous_page }}" ><span class="meta-nav-prev">&larr; suivants</span></a></div>
-  		{% endif %}
-  	{% endif %}
-  	{% if paginator.next_page %}
-  	<div class="nav-next"><a href="/{{ paginator.next_page }}" ><span class="meta-nav-next">précédents &rarr;</span></a></div>
-	{% endif %}
-</div>
-{% endif %}
-<!-- End Page-navi --> 
-
-</div>
-
-<script type="text/javascript">
-	var disqus_shortname = 'poligeek';
-	(function () {
-	    var s = document.createElement('script'); s.async = true;
-	    s.type = 'text/javascript';
-	    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-	    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-	}());
-</script>
+			{% endfor %}
+		</div>
+	</div>
