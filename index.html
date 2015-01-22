@@ -3,8 +3,77 @@ layout: default
 title: Poligeek | Le podcast politique et tech
 ---
 
+{% for post in paginator.posts %}
+
+<article class="article" style="background: url('{{ site.baseurl }}images/bg/{{ post.bg }}') no-repeat center; background-size: cover;">
+	<div class="overlay">
+		<div class="container">
+			<div class="content">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="clear"></div>
+						<header>
+							<a class="show-title" href="{{ post.url }}">
+								<h1><span class="number">#{{ post.number }}</span> {{ post.title }}</h2>
+								<div class="clear"></div>
+							</a>
+						</header>
+
+						<section>
+							{{ post.content }}
+						</section>
+					</div>
+
+					<aside class="col-md-4">
+						<iframe class="iframe squareIframe shadow vcenter" id="player" width="100%" height="360" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url={{ post.soundcloud_url }}&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=false&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=true&amp;start_track=0&amp;callback=true"></iframe>
+
+						<center><a href="{{ post.download_url }}" class="btn btn-success btn-download shadow" download="Poligeek{{ show.number }}.mp3"><span class="glyphicon glyphicon-download-alt"></span> Télécharger (MP3)</a></center>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</div>
+</article>
+
+{% endfor %}
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<nav>
+				<ul class="pager">
+					{% if paginator.next_page %}
+					<li class="previous"><a href="{{ paginator.next_page_path }}"><span aria-hidden="true">&larr;</span> Plus anciens</a></li>
+					{% endif %}
+					{% if paginator.previous_page %}
+					<li class="next"><a href="{{ paginator.previous_page_path }}">Plus récents <span aria-hidden="true">&rarr;</span></a></li>
+					{% endif %}
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+
+
+
+<nav class="socialNav">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-8">
+				<div class="btn-group dropdown-menu-right shadow" role="group" aria-label="...">
+					<a href="#" class="btn btn-default btn-lg icoPodcast"><i class="el-icon-podcast"></i></a>
+					<a href="#" class="btn btn-default btn-lg icoRss"><i class="el-icon-rss"></i></a>
+					<a href="#" class="btn btn-default btn-lg icoTwitter"><i class="el-icon-twitter"></i></a>
+					<a href="#" class="btn btn-default btn-lg icoFacebook"><i class="el-icon-facebook"></i></a>
+					<a href="#" class="btn btn-default btn-lg icoSoundcloud"><i class="el-icon-soundcloud"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
 <!-- Extra -->
-	<div id="extra">
+	<!-- <div id="extra">
 		<div class="container">
 			<div class="row no-collapse-1">
 			{% for post in site.posts limit:3 %}
@@ -38,10 +107,7 @@ title: Poligeek | Le podcast politique et tech
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script>
-$('.episode-theme').tooltip({'animation':true, 'placement':'right'});
-</script>
