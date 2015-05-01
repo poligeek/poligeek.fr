@@ -3,111 +3,44 @@ layout: default
 title: Poligeek | Le podcast politique et tech
 ---
 
-{% for post in paginator.posts %}
-
-<article class="article" style="background: url('{{ site.baseurl }}images/bg/{{ post.bg }}') no-repeat center; background-size: cover;">
-	<div class="overlay">
-		<div class="container">
-			<div class="content">
-				<div class="row">
-					<div class="col-md-8">
-						<div class="clear"></div>
-						<header>
-							<a class="show-title" href="{{ post.url }}">
-								<h1><span class="number">#{{ post.number }}</span> {{ post.title }}</h2>
-								<div class="clear"></div>
-							</a>
-						</header>
-
-						<section>
-							{{ post.content }}
-						</section>
-					</div>
-
-					<aside class="col-md-4">
-						<iframe class="iframe squareIframe shadow vcenter" id="player" width="100%" height="360" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url={{ post.soundcloud_url }}&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=false&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=true&amp;start_track=0&amp;callback=true"></iframe>
-
-						<center><a href="{{ post.download_url }}" class="btn btn-success btn-download shadow" download="Poligeek{{ show.number }}.mp3"><span class="glyphicon glyphicon-download-alt"></span> Télécharger (MP3)</a></center>
-					</aside>
-				</div>
-			</div>
-		</div>
-	</div>
-</article>
-
-{% endfor %}
-
 <div class="container">
 	<div class="row">
-		<div class="col-md-8">
-			<nav>
-				<ul class="pager">
-					{% if paginator.next_page %}
-					<li class="previous"><a href="{{ paginator.next_page_path }}"><span aria-hidden="true">&larr;</span> Plus anciens</a></li>
-					{% endif %}
-					{% if paginator.previous_page %}
-					<li class="next"><a href="{{ paginator.previous_page_path }}">Plus récents <span aria-hidden="true">&rarr;</span></a></li>
-					{% endif %}
-				</ul>
-			</nav>
+		<div class="col-md-12">
+			<div class="subscribe">
+				<a href="https://itunes.apple.com/us/podcast/poligeek/id368413020" class="btn btn-default btn-podcast"><i class="el el-podcast"></i> S'abonner sur iTunes</a>
+				<a href="/podcast.xml" class="btn btn-default btn-rss"><i class="el el-rss"></i> Fil RSS</a>
+
+				<form action="//poligeek.us3.list-manage.com/subscribe/post?u=05db115c5700548f83414bb8a&amp;id=dd38bb7044" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline pull-right" novalidate>
+				  <div class="form-group">
+				    <label for="exampleInputEmail2" class="sr-only">Email</label>
+				    <input type="email" class="form-control" name="EMAIL" id="EMAIL" placeholder="Newsletter">
+
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+				  </div>
+				  <button type="submit" class="btn btn-default">S'inscrire</button>
+				</form>
+			</div>
 		</div>
 	</div>
+
+	{% for post in site.posts %}
+	{% assign loopindex = forloop.index | modulo: 3 %}
+  {% if loopindex == 1 %}
+	<div class="row">
+  {% endif %}
+		<div class="col-md-4">
+			<a class="show hvr-grow" href="{{ post.url }}">
+				<div class="show-cover" style="background: url('{{ site.baseurl }}images/covers/{{ post.cover }}') no-repeat center; background-size: cover;">
+					{{loopindex}}
+				</div>
+			</a>
+		</div>
+  {% if loopindex == 0 %}
+	</div>
+  {% endif %}
+	{% endfor %}
+	{% if (site.posts | last | mod:3) != 0 %}
+	</div>
+	{% endif %}
 </div>
-
-
-
-<nav class="socialNav">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 col-md-offset-8">
-				<div class="btn-group dropdown-menu-right shadow" role="group" aria-label="...">
-					<a href="#" class="btn btn-default btn-lg icoPodcast"><i class="el-icon-podcast"></i></a>
-					<a href="#" class="btn btn-default btn-lg icoRss"><i class="el-icon-rss"></i></a>
-					<a href="#" class="btn btn-default btn-lg icoTwitter"><i class="el-icon-twitter"></i></a>
-					<a href="#" class="btn btn-default btn-lg icoFacebook"><i class="el-icon-facebook"></i></a>
-					<a href="#" class="btn btn-default btn-lg icoSoundcloud"><i class="el-icon-soundcloud"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</nav>
-
-<!-- Extra -->
-	<!-- <div id="extra">
-		<div class="container">
-			<div class="row no-collapse-1">
-			{% for post in site.posts limit:3 %}
-				<section class="4u"> <a href="{{ post.url }}" class="image featured"><img src="{{ site.baseurl }}images/covers/{{ post.cover }}" alt="{{ post.title }}"></a>
-					<div class="box">
- 						<a href="{{ post.url }}" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-headphones"></span> Ecouter</a>
-						<a href="{{ post.download_url }}" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-download-alt"></span> Télécharger</a>
-					</div>
-				</section>
-			{% endfor %}
-		</div>
-	</div>
-
-	<div id="main">
-		<div class="container">
-			<div class="row">
-				<div class="-2u 8u">
-					<div class="more-episodes">
-						<table class="table">
-						{% for post in site.posts offset:3 %}
-							<tr>
-								<td><a href="{{ post.url }}" class="episode-theme" data-toggle="tooltip" title="{{ post.theme_debat }}">{% if post.number %}#{{ post.number }} - {% endif %}{{ post.title }}</a></td>
-								<td class="text-right">
-									<a href="{{ post.url }}" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-headphones"></span> Ecouter</a>
-									<a href="{{ post.download_url }}" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-download-alt"></span> Télécharger</a>
-								</td>
-							</tr>
-						{% endfor %}
-						</table>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

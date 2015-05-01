@@ -2,20 +2,37 @@
 layout: default
 ---
 
-<div id="page" class="container small">
-	<section>
-		<header class="major">
-			<h2>{% if page.number %}#{{ page.number }} - {% endif %}{{ page.title }}</h2>
-			<span class="byline">{{ page.date | date_to_string }}</span>
-		</header>
+<article class="show">
 
-		<a href="{{ page.soundcloud_url }}" class="btn btn-primary"><span class="glyphicon glyphicon-headphones"></span> Ecouter sur Soundcloud</a>
-		<a href="{{ page.download_url }}" class="btn btn-success"><span class="glyphicon glyphicon-download-alt"></span> Télécharger en MP3</a>
-		<br/><br/>
 
-		<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url={{ page.soundcloud_url | uri_escape }}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-		<br/><br/>
 
-		{{ content }}
-	</section>
+<div class="container">
+	<div class="show-banner-container">
+		<div class="show-banner" style="background: url('/images/bg/{{ page.bg }}') no-repeat center center;"></div>
+		<div class="image-container">
+			<img src="/images/covers/{{ page.cover }}" alt="{{ page.title }}" />
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12">
+			<h1>{% if page.number %}#{{ page.number }} - {% endif %}{{ page.title }}</h1>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-8">
+			<p class="date">{% assign m = page.date | date: "%-m" %}{{ page.date | date: "%-d" }} {% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ page.date | date: "%Y" }}</p>
+
+			{{ content }}
+		</div>
+
+		<div class="col-md-4">
+			<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url={{ page.soundcloud_url | uri_escape }}&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+			<a href="{{ page.download_url }}" class="btn btn-default btn-lg full-width"><span class="glyphicon glyphicon-download-alt"></span> Télécharger</a>
+		</div>
+	</div>
 </div>
+
+</article>

@@ -6,3 +6,6 @@ exclude: ['Rakefile', 'README.md']
 permalink: /:title
 paginate: 3
 paginate_path: "page:num/"
+
+seo_description: ""
+seo_keywords: ""
