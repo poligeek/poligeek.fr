@@ -1,9 +1,15 @@
 name: Poligeek
 description: 'Le podcast Politique et Tech !'
-markdown: redcarpet
-pygments: true
+
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+gems:             [jekyll-paginate]
+
 exclude: ['Rakefile', 'README.md']
+
 permalink: /:title
+
 paginate: 3
 paginate_path: "page:num/"
 

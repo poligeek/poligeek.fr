@@ -9,8 +9,8 @@ header {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-	margin-bottom: 40px;
-	height: 285px;
+	margin-bottom: 0;
+
 }
 
 header h1 {
@@ -25,7 +25,7 @@ header nav ul.nav-pills>li>a {
 /* Footer */
 
 footer {
-	margin-top: 45px;
+	margin-top: 0;
 	background-color: #333;
 	color: #FFF;
 }
@@ -74,6 +74,11 @@ a.show {
 	margin-bottom: 15px;
 }
 
+.show-cover {
+	width: 100%;
+    padding-bottom: 100%;
+}
+
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
@@ -96,59 +101,20 @@ a.show {
 
 }
 
-div.show-cover {
-	width: 100%;
-  padding-bottom: 100%;
-	background-color: #FF0;
+.covers-grid {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-.show-banner {
-	margin: -20px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 100%;
-	-webkit-filter: blur(20px);
-	-moz-filter: blur(20px);
-	-o-filter: blur(20px);
-	-ms-filter: blur(20px);
-	filter: blur(20px);
-	min-height: 390px;
-	opacity: 0.7;
-}
-
-.show-banner-container {
-	overflow: hidden;
-  -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
-  -ms-filter: blur(0px);
-  filter: blur(0px);
-}
-
-.show-banner-container .image-container {
-	margin: 0;
-	display: block;
-	position: absolute;
-	left: 50%;
-	top: 330px;
-}
-
-.show-banner-container .image-container IMG {
-	margin: 20px 0;
-	width: 300px;
-	height: 300px;
-	display: block;
-	z-index: 1000;
-	position: relative;
-	left:-50%;
-	box-shadow: 0 0 5px #000;
+article.show {
+	padding-bottom: 40px;
 }
 
 article.show h1 {
 	font-size: 4em;
 	font-weight: bold;
 	text-align: center;
-	margin: 50px 0;
+	margin: 40px 0;
 }
 
 article.show p {
@@ -163,7 +129,11 @@ article.show ul li {
 }
 
 article.show p.date {
-	color: #BBB;
+	color: #5D4370;
+}
+
+.audioplayer {
+	margin-bottom: 20px;
 }
 
 .full-width {
@@ -201,4 +171,11 @@ article.show p.date {
 	background-color: #FD6F26;
 	border-color: #FD6F26;
 	color: #FFF;
+}
+
+.panel-download h2 {
+	margin-top: 0;
+	padding-bottom: 8px;
+	font-size: 1.2em;
+	border-bottom: 1px solid #C8C8C8;
 }

@@ -2,37 +2,47 @@
 layout: default
 ---
 
-<article class="show">
+<article class="show" style="background: url('/images/bg/bg{{ page.number }}.jpg') no-repeat center center; background-size: cover;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>{% if page.number %}#{{ page.number }} - {% endif %}{{ page.title }}</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-5">
+				<img src="/images/covers/cover{{ page.number }}-small.jpg" alt="{{ page.title }}"  class="cover img-responsive" />
+			</div>
+
+			<div class="col-md-7">
+				<p class="date">{% assign m = page.date | date: "%-m" %}{{ page.date | date: "%-d" }} {% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ page.date | date: "%Y" }}</p>
+
+				<audio src="{{ page.download_url }}" preload="auto"></audio>
+				<script src="/js/audioplayer.min.js"></script>
+				<script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
+
+				{{ content }}
+
+				<div class="panel panel-default panel-download">
+				  <div class="panel-body">
+						<h2>Partager et télécharger Poligeek <b>#{{ page.number }} - {{ page.title }}</b></h2>
+
+						<div class="btn-group">
+					    <a href="https://www.facebook.com/sharer/sharer.php?u=poligeek.fr/{{ page.number }}" class="btn btn-default btn-sm"><i class="el el-facebook"></i> Facebook</a>
+						  <a href="https://twitter.com/home?status=poligeek.fr/{{ page.number }}" class="btn btn-default btn-sm"><i class="el el-twitter"></i> Twitter</a>
+				  	</div>
+						<div class="btn-group pull-right" role="group">
+							<a href="https://itunes.apple.com/fr/podcast/poligeek/id368413020" class="btn btn-default btn-podcast btn-sm"><i class="el el-podcast"></i> S'abonner sur iTunes</a>
+							<a href="/podcast.xml" class="btn btn-default btn-rss btn-sm"><i class="el el-rss"></i> Fil RSS</a>
+					    <a href="{{ page.download_url }}" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-download-alt"></span> Télécharger</a>
+				  	</div>
+					</div>
+				</div>
 
 
 
-<div class="container">
-	<div class="show-banner-container">
-		<div class="show-banner" style="background: url('/images/bg/{{ page.bg }}') no-repeat center center;"></div>
-		<div class="image-container">
-			<img src="/images/covers/{{ page.cover }}" alt="{{ page.title }}" />
+			</div>
 		</div>
 	</div>
-
-	<div class="row">
-		<div class="col-md-12">
-			<h1>{% if page.number %}#{{ page.number }} - {% endif %}{{ page.title }}</h1>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-8">
-			<p class="date">{% assign m = page.date | date: "%-m" %}{{ page.date | date: "%-d" }} {% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ page.date | date: "%Y" }}</p>
-
-			{{ content }}
-		</div>
-
-		<div class="col-md-4">
-			<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url={{ page.soundcloud_url | uri_escape }}&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-
-			<a href="{{ page.download_url }}" class="btn btn-default btn-lg full-width"><span class="glyphicon glyphicon-download-alt"></span> Télécharger</a>
-		</div>
-	</div>
-</div>
-
 </article>

@@ -3,27 +3,7 @@ layout: default
 title: Poligeek | Le podcast politique et tech
 ---
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="subscribe">
-				<a href="https://itunes.apple.com/us/podcast/poligeek/id368413020" class="btn btn-default btn-podcast"><i class="el el-podcast"></i> S'abonner sur iTunes</a>
-				<a href="/podcast.xml" class="btn btn-default btn-rss"><i class="el el-rss"></i> Fil RSS</a>
-
-				<form action="//poligeek.us3.list-manage.com/subscribe/post?u=05db115c5700548f83414bb8a&amp;id=dd38bb7044" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline pull-right" novalidate>
-				  <div class="form-group">
-				    <label for="exampleInputEmail2" class="sr-only">Email</label>
-				    <input type="email" class="form-control" name="EMAIL" id="EMAIL" placeholder="Newsletter">
-
-						<div class="response" id="mce-error-response" style="display:none"></div>
-						<div class="response" id="mce-success-response" style="display:none"></div>
-				  </div>
-				  <button type="submit" class="btn btn-default">S'inscrire</button>
-				</form>
-			</div>
-		</div>
-	</div>
-
+<div class="container covers-grid">
 	{% for post in site.posts %}
 	{% assign loopindex = forloop.index | modulo: 3 %}
   {% if loopindex == 1 %}
@@ -31,9 +11,7 @@ title: Poligeek | Le podcast politique et tech
   {% endif %}
 		<div class="col-md-4">
 			<a class="show hvr-grow" href="{{ post.url }}">
-				<div class="show-cover" style="background: url('{{ site.baseurl }}images/covers/{{ post.cover }}') no-repeat center; background-size: cover;">
-					{{loopindex}}
-				</div>
+				<div class="show-cover" style="background: url('{{ site.baseurl }}images/covers/Jacquette{{ post.number }}.png') no-repeat center; background-size: cover;"></div>
 			</a>
 		</div>
   {% if loopindex == 0 %}
