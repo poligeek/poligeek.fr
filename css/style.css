@@ -101,6 +101,11 @@ a.show {
 
 }
 
+.cover {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .covers-grid {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -171,6 +176,10 @@ article.show p.date {
 	background-color: #FD6F26;
 	border-color: #FD6F26;
 	color: #FFF;
+}
+
+.panel-download {
+	margin-top: 40px;
 }
 
 .panel-download h2 {
