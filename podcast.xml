@@ -26,7 +26,6 @@ layout: null
     <itunes:category text="Technology">
       <itunes:category text="Tech News"/>
     </itunes:category>
-    <itunes:new-feed-url>http://poligeek.fr/podcast.xml</itunes:new-feed-url>
     <itunes:keywords>poligeek, politique, technologie, geek</itunes:keywords>
     <ttl>30</ttl>
 
