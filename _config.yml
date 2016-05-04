@@ -1,17 +1,17 @@
-name: Poligeek
-description: 'Le podcast Politique et Tech !'
-
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
-gems:             [jekyll-paginate]
+gems:             []
 
+# Build
 exclude: ['Rakefile', 'README.md']
 
+# URLs
 permalink: /:title
 
-paginate: 3
-paginate_path: "page:num/"
+# Meta
+name: Poligeek
+description: 'Le podcast Politique et Tech !'
 
 seo_description: ""
 seo_keywords: ""
