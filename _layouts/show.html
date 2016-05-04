@@ -18,7 +18,7 @@ layout: default
 			<div class="col-md-7">
 				<p class="date">{% assign m = page.date | date: "%-m" %}{{ page.date | date: "%-d" }} {% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ page.date | date: "%Y" }}</p>
 
-				<audio src="{{ page.download_url }}" preload="auto"></audio>
+				<audio src="http://storage.poligeek.fr/shows/show{{ page.number }}.mp3" preload="auto"></audio>
 				<script src="/js/audioplayer.min.js"></script>
 				<script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
 
