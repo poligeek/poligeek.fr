@@ -22,7 +22,7 @@ layout: null
     </itunes:owner>
     <itunes:explicit>Clean</itunes:explicit>
     <itunes:image href="http://storage.poligeek.fr/assets/logo.png"/>
-    <itunes:category text="News & Politics"/>
+    <itunes:category text="News &amp; Politics"/>
     <itunes:category text="Technology">
       <itunes:category text="Tech News"/>
     </itunes:category>
