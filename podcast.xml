@@ -9,8 +9,8 @@ layout: null
     <link>http://www.poligeek.fr</link>
     <language>fr-fr</language>
     <copyright>Creative commons by-nc-sa 3.0 FR</copyright>
-    <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
-    <pubDate>{{ site.posts[0].date | date_to_xmlschema }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <pubDate>{{ site.posts[0].date | date_to_rfc822 }}</pubDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <webMaster>adhumi@gmail.com (Adrien Humilière)</webMaster>
     <itunes:author>Poligeek</itunes:author>
@@ -42,7 +42,7 @@ layout: null
 Plus d'infos sur poligeek.fr/{{ post.number }}</description>
       <enclosure type="audio/mpg" url="http://storage.poligeek.fr/shows/show{{ post.number }}.mp3"/>
       <category>Podcasts</category>
-      <pubDate>{{ post.date }}</pubDate>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <itunes:author>Poligeek</itunes:author>
       <itunes:explicit>No</itunes:explicit>
       <itunes:subtitle>{{ post.theme_debat }}</itunes:subtitle>
