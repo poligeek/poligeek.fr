@@ -185,8 +185,28 @@ article.show p.date {
 .panel-download h2 {
 	margin-top: 0;
 	padding-bottom: 8px;
-	font-size: 1.2em;
+	font-size: 1.2em !important;
+	font-weight: 400 !important;
 	border-bottom: 1px solid #C8C8C8;
+}
+
+hr {
+	border-top: 1px solid #999;
+}
+
+article.show h2 {
+	padding-top:10px;
+	font-size: 2em;
+	font-weight: 600;
+}
+
+article.show .content a {
+	color: #666;
+	text-decoration: none;
+}
+
+article.show .content a:hover {
+	border-bottom: 1px dotted #666;
 }
 
 .show-cover p {
