@@ -188,3 +188,7 @@ article.show p.date {
 	font-size: 1.2em;
 	border-bottom: 1px solid #C8C8C8;
 }
+
+.show-cover p {
+	display: none;
+}
