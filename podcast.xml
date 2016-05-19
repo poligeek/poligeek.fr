@@ -38,7 +38,7 @@ layout: null
       <description>{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '
 <ul>
 ' | remove: '
-</ul>' | remove: '</li>' | replace:'  <li>','- '}}
+</ul>' | remove: '</li>' | replace:'  <li>','- ' | strip_html}}
 Plus d'infos sur poligeek.fr/{{ post.number }}</description>
       <enclosure type="audio/mpg" url="http://storage.poligeek.fr/shows/show{{ post.number }}.mp3"/>
       <category>Podcasts</category>
@@ -49,7 +49,7 @@ Plus d'infos sur poligeek.fr/{{ post.number }}</description>
       <itunes:summary>{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '
 <ul>
 ' | remove: '
-</ul>' | remove: '</li>' | replace:'  <li>','- '}}
+</ul>' | remove: '</li>' | replace:'  <li>','- ' | strip_html}}
 Plus d'infos sur poligeek.fr/{{ post.number }}</itunes:summary>
       <itunes:duration>{{ post.duration }}</itunes:duration>
       <itunes:image href="http://storage.poligeek.fr/assets/cover{{ post.number }}.jpg"/>
