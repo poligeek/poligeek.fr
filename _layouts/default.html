@@ -45,35 +45,41 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-  				<div class="col-md-4">
+  				<div class="col-md-3">
 						<h2>Réseaux sociaux</h2>
 						<ul>
-							<li><a href="http://twitter.com/poligeek">Twitter</a></li>
-							<li><a href="http://fb.com/poligeek">Facebook</a></li>
+							<li><a href="http://twitter.com/poligeek">Twitter @poligeek</a></li>
+							<li><a href="http://fb.com/poligeek">Facebook /poligeek</a></li>
 						</ul>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-3">
 						<h2>Ecouter</h2>
 						<ul>
-							<li><a href="https://itunes.apple.com/us/podcast/poligeek/id368413020">Sur iTunes</a></li>
-							<li><a href="https://soundcloud.com/poligeek">Sur SoundCloud</a></li>
+							<li><a href="https://itunes.apple.com/fr/podcast/poligeek/id368413020">Sur iTunes</a></li>
 							<li><a href="/podcast.xml">Via RSS</a></li>
 						</ul>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-3">
 						<h2>L'équipe</h2>
 						<ul>
 							<li><a href="http://twitter.com/adhumi">Adrien</a></li>
 							<li><a href="http://twitter.com/borosch">Borosch</a></li>
 							<li><a href="http://twitter.com/captainliban">Captain Liban</a></li>
-							<li><a href="http://twitter.com/ooalex">Alex</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h2>Les dernières émissions</h2>
+						<ul>
+							{% for post in site.posts limit:5 %}
+							<li><a href="{{ post.url }}">{% if post.number %}#{{ post.number }} - {% endif %}{{ post.title }}</a></li>
+							{% endfor %}
 						</ul>
 					</div>
 				</div>
 				<div class="row">
   				<div class="col-md-12">
 						<p class="licence">Tous les contenus de Poligeek sont distribués sous licence Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International.<br />
-						Les jingles sont composés par Kwakos.</p>
+						Les jingles sont composés par Kwakos. Poligeek est sur <a href="http://github.com/poligeek">Github</a>.</p>
 					</div>
 				</div>
 			</div>

@@ -12,7 +12,7 @@ layout: default
 
 		<div class="row">
 			<div class="col-md-5">
-				<img src="/images/covers/cover{{ page.number }}-small.jpg" alt="{{ page.title }}"  class="cover img-responsive" />
+				<img src="http://storage.poligeek.fr/assets/cover{{ page.number }}-small.jpg" alt="{{ page.title }}"  class="cover img-responsive" />
 			</div>
 
 			<div class="col-md-7">
@@ -22,7 +22,9 @@ layout: default
 				<script src="/js/audioplayer.min.js"></script>
 				<script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
 
-				{{ content }}
+				<div class="content">
+					{{ content }}
+				</div>
 
 				<div class="panel panel-default panel-download">
 				  <div class="panel-body">

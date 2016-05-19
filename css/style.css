@@ -32,13 +32,9 @@ footer {
 
 footer h2 {
 	text-transform: uppercase;
-	font-size: 1.2em;
-	background-color: #555;
-	color: #333;
+	font-size: 1em;
+	color: #FFF;
 	font-weight: bold;
-	margin-top: 0;
-	display: inline-block;
-	padding: 10px 20px;
 }
 
 footer ul {
@@ -47,7 +43,6 @@ footer ul {
 }
 
 footer ul li {
-	font-size: 1.3em;
 	color: #777;
 }
 
@@ -63,7 +58,7 @@ footer ul li a:hover {
 footer p.licence {
 	color: #777;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -185,6 +180,30 @@ article.show p.date {
 .panel-download h2 {
 	margin-top: 0;
 	padding-bottom: 8px;
-	font-size: 1.2em;
+	font-size: 1.2em !important;
+	font-weight: 400 !important;
 	border-bottom: 1px solid #C8C8C8;
+}
+
+hr {
+	border-top: 1px solid #999;
+}
+
+article.show h2 {
+	padding-top:10px;
+	font-size: 2em;
+	font-weight: 600;
+}
+
+article.show .content a {
+	color: #666;
+	text-decoration: none;
+}
+
+article.show .content a:hover {
+	border-bottom: 1px dotted #666;
+}
+
+.show-cover p {
+	display: none;
 }
