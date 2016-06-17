@@ -4,7 +4,7 @@ highlighter:      rouge
 gems:             []
 
 # Build
-exclude: ['Rakefile', 'README.md']
+exclude: [vendor, 'Rakefile', 'README.md']
 
 # URLs
 permalink: /:title
