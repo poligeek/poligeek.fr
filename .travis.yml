@@ -12,3 +12,6 @@ branches:
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+notifications:
+  slack: poligeek:G6VjBT8MR1NrruT7YdLOlcm6
