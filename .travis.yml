@@ -1,0 +1,17 @@
+sudo: false
+language: ruby
+rvm:
+  - 2.1
+script: ./validate.sh
+
+branches:
+  only:
+    - gh-pages
+    - /pages-(.*)/
+
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+notifications:
+  slack: poligeek:G6VjBT8MR1NrruT7YdLOlcm6
