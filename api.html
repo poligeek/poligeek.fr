@@ -13,6 +13,6 @@ layout: null
       "duration": "{{ post.duration }}",
       "keywords": "{{ post.keywords }}",
       "text": "{{ post.content | xml_escape }}"
-    },{% endfor %}
+    }{% if (forloop.rindex0) != 0 %},{% endif %}{% endfor %}
 	]
 }
