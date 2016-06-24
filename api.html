@@ -1,0 +1,18 @@
+---
+layout: null
+---
+{
+  "api": "v1",
+  "shows": [{% for post in site.posts %}
+    {
+      "title": "{{ post.title }}",
+      "number": "{{ post.number }}",
+      "date": "{{ post.date }}",
+      "record_date": "{{ post.record_date }}",
+      "theme_debat": "{{ post.theme_debat }}",
+      "duration": "{{ post.duration }}",
+      "keywords": "{{ post.keywords }}",
+      "text": "{{ post.content | xml_escape }}"
+    }{% if (forloop.rindex0) != 0 %},{% endif %}{% endfor %}
+	]
+}
