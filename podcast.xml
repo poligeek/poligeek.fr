@@ -34,13 +34,13 @@ layout: null
     <item>
       <title>#{{ post.number }} - {{ post.title }}</title>
       <link>http://poligeek.fr/{{ post.number }}</link>
-      <guid>{% if post.storage == soundcloud %}http://feeds.soundcloud.com/stream/{{ post.soundclound_id }}{% else %}http://storage.poligeek.fr/shows/show{{ post.number }}.mp3{% endif %}</guid>
+      <guid>http://storage.poligeek.fr/shows/show{{ post.number }}.mp3</guid>
       <description>{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '
 <ul>
 ' | remove: '
 </ul>' | remove: '</li>' | replace:'  <li>','- ' | strip_html}}
 Plus d'infos sur poligeek.fr/{{ post.number }}</description>
-      <enclosure type="audio/mpg" url="{% if post.storage == soundcloud %}http://feeds.soundcloud.com/stream/{{ post.soundclound_id }}{% else %}http://storage.poligeek.fr/shows/show{{ post.number }}.mp3{% endif %}"/>
+      <enclosure type="audio/mpg" url="http://storage.poligeek.fr/shows/show{{ post.number }}.mp3"/>
       <category>Podcasts</category>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <itunes:author>Poligeek</itunes:author>
