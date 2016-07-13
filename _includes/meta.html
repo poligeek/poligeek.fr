@@ -3,8 +3,6 @@
 {% if page.categories contains 'podcast' %}
 <meta property="og:title" content="Poligeek #{{ page.number }} - {{ page.title }}" />
 <meta property="og:image" content="http://storage.poligeek.fr/assets/cover{{ page.number }}.jpg" />
-<meta property="og:audio" content="http://storage.poligeek.fr/shows/show{{ page.number }}.mp3" />
-<meta property="og:audio:type" content="audio/mpeg" />
 <meta property="og:description" content="{{ page.content | truncatewords:20 | strip_html }}" />
 <meta property="og:locale" content="fr_FR" />
 <meta property="og:site_name" content="Poligeek" />
