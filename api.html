@@ -5,6 +5,7 @@ layout: null
   "api": "v1",
   "shows": [{% for post in site.posts %}
     {
+      "identifier": "{{ post.number }}",
       "title": "{{ post.title }}",
       "number": "{{ post.number }}",
       "date": "{{ post.date }}",
@@ -12,7 +13,8 @@ layout: null
       "theme_debat": "{{ post.theme_debat }}",
       "duration": "{{ post.duration }}",
       "keywords": "{{ post.keywords }}",
-      "text": "{{ post.content | xml_escape }}"
+      "text": "{{ post.content | replace: '
+', '\n' | replace: '"', '\"'}}"
     }{% if (forloop.rindex0) != 0 %},{% endif %}{% endfor %}
 	]
 }
