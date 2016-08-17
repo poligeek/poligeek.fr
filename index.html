@@ -5,20 +5,21 @@ title: Poligeek | Le podcast politique et tech
 
 <div class="container covers-grid">
 	{% for post in site.posts %}
-	{% assign loopindex = forloop.index | modulo: 3 %}
+	{% assign loopindex = forloop.index | modulo: 4 %}
   {% if loopindex == 1 %}
 	<div class="row">
   {% endif %}
-		<div class="col-md-4">
+		<div class="col-md-3">
 			<a class="show hvr-grow" href="{{ post.url }}">
 				<div class="show-cover" style="background: url('http://storage.poligeek.fr/assets/cover{{ post.number }}-small.jpg') no-repeat center; background-size: cover;"><p>{% if post.number %}#{{ post.number }} - {% endif %}{{ post.title }}</p></div>
+				<p class="date">{% assign m = post.date | date: "%-m" %}{{ post.date | date: "%-d" }} {% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ post.date | date: "%Y" }}</p>
 			</a>
 		</div>
   {% if loopindex == 0 %}
 	</div>
   {% endif %}
 	{% endfor %}
-	{% if (site.posts | last | mod:3) != 0 %}
+	{% if (site.posts | last | mod:4) != 0 %}
 	</div>
 	{% endif %}
 </div>

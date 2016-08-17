@@ -71,7 +71,9 @@ a.show {
 
 .show-cover {
 	width: 100%;
-    padding-bottom: 100%;
+  padding-bottom: 100%;
+	border: 1px solid #999;
+	background-color: #DDD !important;
 }
 
 .hvr-grow {
@@ -206,4 +208,14 @@ article.show .content a:hover {
 
 .show-cover p {
 	display: none;
+}
+
+a.show p.date {
+	margin-top: 7px;
+	color: #999;
+	font-size: 1em;
+}
+
+a.show:hover {
+	text-decoration: none;
 }
