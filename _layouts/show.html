@@ -6,18 +6,25 @@ layout: default
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h1>{% if page.number %}#{{ page.number }} - {% endif %}{{ page.title }}</h1>
+				<div class="page-header">
+					<h1>{% if page.number %}#{{ page.number }} - {% endif %}{{ page.title }}</h1>
+				</div>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-md-5">
-				<img src="http://storage.poligeek.fr/assets/cover{{ page.number }}-small.jpg" alt="{{ page.title }}"  class="cover img-responsive" />
+				<div class="panel panel-default panel-detail">
+					<div class="panel-heading" style="background: url('http://storage.poligeek.fr/assets/cover{{ page.number }}-small.jpg') no-repeat center; background-size: cover;"></div>
+					<div class="panel-body">
+						<p class="show_detail"><strong>{% assign m = page.date | date: "%-m" %}{{ page.date | date: "%-d" }} {% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ page.date | date: "%Y" }}</strong></p>
+						{% if page.date != page.record_date %}<p class="show_detail">Enregistré le {% assign m = page.record_date | date: "%-m" %}{{ page.record_date | date: "%-d" }} {% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ page.record_date | date: "%Y" }}</p>{% endif %}
+						<p class="show_detail">Durée : <samp>{{ page.duration }}</samp></p>
+					</div>
+				</div>
 			</div>
 
 			<div class="col-md-7">
-				<p class="date">{% assign m = page.date | date: "%-m" %}{{ page.date | date: "%-d" }} {% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ page.date | date: "%Y" }}</p>
-
 				<audio src="http://storage.poligeek.fr/shows/show{{ page.number }}.mp3" preload="auto"></audio>
 				<script src="/js/audioplayer.min.js"></script>
 				<script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
@@ -35,9 +42,7 @@ layout: default
 						  <a href="https://twitter.com/home?status=poligeek.fr/{{ page.number }}" class="btn btn-default btn-sm"><i class="el el-twitter"></i> Twitter</a>
 				  	</div>
 						<div class="btn-group pull-right" role="group">
-							<a href="https://itunes.apple.com/fr/podcast/poligeek/id368413020" class="btn btn-default btn-podcast btn-sm"><i class="el el-podcast"></i> S'abonner sur iTunes</a>
-							<a href="/podcast.xml" class="btn btn-default btn-rss btn-sm"><i class="el el-rss"></i> Fil RSS</a>
-					    <a href="http://storage.poligeek.fr/shows/show{{ page.number }}.mp3" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-download-alt"></span> Télécharger</a>
+							<a href="http://storage.poligeek.fr/shows/show{{ page.number }}.mp3" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-download-alt"></span> Télécharger</a>
 				  	</div>
 					</div>
 				</div>
