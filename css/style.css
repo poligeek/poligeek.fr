@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-	margin: 60px 0;
+	margin: 60px 0 20px 0;
 	text-align: center;
 }
 
@@ -218,4 +218,13 @@ a.show p.date {
 
 a.show:hover {
 	text-decoration: none;
+}
+
+p.punchline {
+	color: white;
+	font-style: italic;
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: 100;
+	margin-bottom: 40px;
 }
