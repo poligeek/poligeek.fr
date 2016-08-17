@@ -26,7 +26,13 @@ title: Poligeek | Le podcast politique et tech
 
 	<script>
 		$(function () {
-			$('[data-toggle="tooltip"]').tooltip()
+			if(isTouchDevice()===false) {
+				$('[data-toggle="tooltip"]').tooltip()
+			}
 		})
+
+		function isTouchDevice(){
+		  return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
+		}
 	</script>
 </div>
