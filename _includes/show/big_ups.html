@@ -1,0 +1,10 @@
+{% if page.big_ups %}
+<div class="show_section">
+  <p>On en parlait dans les big-ups :</p>
+  <ul>
+  {% for big_up in page.big_ups %}
+    <li>{{ big_up.name }} : {% if big_up.url %}<a href="{{ big_up.url }}">{% endif %}{{ big_up.title }}{% if big_up.url %}</a>{% endif %}</li>
+  {% endfor %}
+</ul>
+</div>
+{% endif %}

@@ -31,36 +31,15 @@ layout: default
 
 				<div class="content">
 					{{ content }}
+          
+          {% include show/sources.html %}
+          {% include show/big_ups.html %}
+          {% include show/cover_source.html %}
 				</div>
 
-				<div class="panel panel-default panel-download">
-				  <div class="panel-body">
-						<h2>Partager et télécharger Poligeek <b>#{{ page.number }} - {{ page.title }}</b></h2>
+				{% include show/download_panel.html %}
 
-						<div class="btn-group">
-					    <a href="https://www.facebook.com/sharer/sharer.php?u=poligeek.fr/{{ page.number }}" class="btn btn-default btn-sm"><i class="el el-facebook"></i> Facebook</a>
-						  <a href="https://twitter.com/home?status=poligeek.fr/{{ page.number }}" class="btn btn-default btn-sm"><i class="el el-twitter"></i> Twitter</a>
-				  	</div>
-						<div class="btn-group pull-right" role="group">
-							<a href="http://storage.poligeek.fr/shows/show{{ page.number }}.mp3" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-download-alt"></span> Télécharger</a>
-				  	</div>
-					</div>
-				</div>
-
-				<div class="panel panel-default panel-download">
-				  <div class="panel-body">
-						<div id="disqus_thread"></div>
-					</div>
-				</div>
-
-				<script>
-					(function() {
-						var d = document, s = d.createElement('script');
-						s.src = '//poligeek.disqus.com/embed.js';
-						s.setAttribute('data-timestamp', +new Date());
-						(d.head || d.body).appendChild(s);
-					})();
-				</script>
+				{% include show/comments_panel.html %}
 			</div>
 		</div>
 	</div>

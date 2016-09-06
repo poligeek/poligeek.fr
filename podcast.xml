@@ -5,17 +5,17 @@ layout: null
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Poligeek</title>
-    <description>Poligeek, c'est le podcast qui revient toutes les deux semaines sur l'essentiel de l'actualité politique autour des nouvelles technologies. Retrouvez dans chaque épisode les news et le grand débat, avec des invités passionnants ! Blog et plus d'infos sur www.poligeek.fr</description>
-    <link>http://www.poligeek.fr</link>
+    <description>Poligeek, c'est le podcast qui revient toutes les deux semaines sur l'essentiel de l'actualité politique autour des nouvelles technologies. Retrouvez dans chaque épisode les news et le grand débat, avec des invités passionnants ! Plus d'infos sur poligeek.fr</description>
+    <link>http://poligeek.fr</link>
     <language>fr-fr</language>
-    <copyright>Creative commons by-nc-sa 3.0 FR</copyright>
+    <copyright>Creative commons by 4.0 International</copyright>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <pubDate>{{ site.posts[0].date | date_to_rfc822 }}</pubDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <webMaster>adhumi@gmail.com (Adrien Humilière)</webMaster>
     <itunes:author>Poligeek</itunes:author>
     <itunes:subtitle>Le podcast politique et tech !</itunes:subtitle>
-    <itunes:summary>Poligeek, c'est le podcast qui revient toutes les deux semaines sur l'essentiel de l'actualité politique autour des nouvelles technologies. Retrouvez dans chaque épisode les news et le grand débat, avec des invités passionnants ! Blog et plus d'infos sur www.poligeek.fr</itunes:summary>
+    <itunes:summary>Poligeek, c'est le podcast qui revient toutes les deux semaines sur l'essentiel de l'actualité politique autour des nouvelles technologies. Retrouvez dans chaque épisode les news et le grand débat, avec des invités passionnants ! Plus d'infos sur poligeek.fr</itunes:summary>
     <itunes:owner>
       <itunes:name>Adrien Humilière</itunes:name>
       <itunes:email>adhumi@gmail.com</itunes:email>
@@ -27,6 +27,7 @@ layout: null
       <itunes:category text="Tech News"/>
     </itunes:category>
     <itunes:keywords>poligeek, politique, technologie, geek</itunes:keywords>
+    <itunes:new-feed-url>http://poligeek.fr/podcast.xml</itunes:new-feed-url>
     <ttl>30</ttl>
 
     {% for post in site.posts %}
