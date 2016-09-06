@@ -1,0 +1,10 @@
+{% if page.sources %}
+<div class="show_section">
+  <p>Les articles qui nous ont aidé à préparer cette émission :</p>
+  <ul>
+  {% for source in page.sources %}
+    <li><a href="{{ source.url }}">{{ source.title }}</a></li>
+  {% endfor %}
+</ul>
+</div>
+{% endif %}

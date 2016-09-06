@@ -4,10 +4,10 @@ highlighter:      	rouge
 gems:             	[]
 
 # Build
-exclude: 			[vendor, 'Rakefile', 'README.md']
+exclude: 			['README.md', 'Gemfile', 'Gemfile.lock', 'validate.sh']
 
 # URLs
-permalink: 			/:title
+permalink: 			/:title 	# domain.com/<title>
 
 # Meta
 name: 				Poligeek
