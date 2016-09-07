@@ -14,7 +14,10 @@ layout: null
       "duration": "{{ post.duration }}",
       "keywords": "{{ post.keywords }}",
       "text": "{{ post.content | replace: '
-', '\n' | replace: '"', '\"'}}"
+', '\n' | replace: '"', '\"'}}"{% if post.big_ups %},
+      "big_ups": {{ post.big_ups | jsonify }}{% endif %}{% if post.cover_source %},
+      "cover_source": {{ post.cover_source | jsonify }}{% endif %}{% if post.sources %},
+      "sources": {{ post.sources | jsonify }}{% endif %}
     }{% if (forloop.rindex0) != 0 %},{% endif %}{% endfor %}
 	]
 }
