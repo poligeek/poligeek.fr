@@ -6,14 +6,14 @@ layout: null
   "shows": [{% for post in site.posts %}
     {
       "identifier": "{{ post.number }}",
-      "title": "{{ post.title }}",
+      "title": "{{ post.title | replace: '"', '\"' }}",
       "number": "{{ post.number }}",
       "date": "{{ post.date }}",
       "record_date": "{{ post.record_date }}",
-      "theme_debat": "{{ post.theme_debat }}",
+      "theme_debat": "{{ post.theme_debat | replace: '"', '\"' }}",
       "duration": "{{ post.duration }}",
       "keywords": "{{ post.keywords }}",
-      "text": "{{ post.content | replace: '
+      "text": "{{ post.excerpt | replace: '
 ', '\n' | replace: '"', '\"'}}"{% if post.big_ups %},
       "big_ups": {{ post.big_ups | jsonify }}{% endif %}{% if post.cover_source %},
       "cover_source": {{ post.cover_source | jsonify }}{% endif %}{% if post.sources %},
