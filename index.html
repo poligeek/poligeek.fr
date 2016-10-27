@@ -9,7 +9,7 @@ title: Poligeek, le podcast politique et tech
   {% if loopindex == 1 %}
 	<div class="row">
   {% endif %}
-		<div class="col-md-3">
+		<div class="col-sm-3">
 			<a class="show" href="{{ post.url }}">
 				<div class="show-cover" style="background: url('http://storage.poligeek.fr/assets/cover{{ post.number }}-small.jpg') no-repeat center; background-size: cover;" {% if post.theme_debat && post.theme_debat != "" %}data-toggle="tooltip" data-placement="top" title="{{ post.theme_debat }}"{% endif %}></div>
 				<p class="title">{% if post.number %}#{{ post.number }} - {% endif %}{{ post.title }}</p>

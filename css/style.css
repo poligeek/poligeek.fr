@@ -1,9 +1,21 @@
-* {
-	font-family: -apple-system, 'Source Sans Pro', 'Helvetica', sans-serif;
+html {
+  font-size: 14px;
 }
 
 body {
 	background-color: #EEE;
+}
+
+
+.nav-subscribe i.el {
+  font-size: 0.8em;
+  margin-right: 3px;
+  margin-bottom: 4px;
+  display:inline-block;
+}
+
+.nav-social i.el {
+  font-size:1.2em;
 }
 
 /* Header */
@@ -18,7 +30,7 @@ header {
 }
 
 header h1 {
-	margin: 60px 0 20px 0;
+	padding: 60px 0 20px 0;
 	text-align: center;
 }
 
@@ -30,6 +42,8 @@ header nav ul.nav-pills>li>a {
 
 footer {
 	margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
 	background-color: #333;
 	color: #FFF;
 }
@@ -63,7 +77,6 @@ footer p.licence {
 	color: #777;
 	text-align: center;
 	margin-top: 20px;
-	margin-bottom: 20px;
 }
 
 /* Main */
@@ -87,36 +100,14 @@ a:hover .show-cover {
 	background-color: #DDD !important;
 }
 
-.hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-	opacity: 0.8;
-}
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-	opacity: 1;
-
-}
-
 .cover {
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .covers-grid {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 article.show {
@@ -226,6 +217,14 @@ article.show h2 {
 	font-weight: 600;
 }
 
+article.show .page-header {
+  margin-bottom:40px;
+}
+
+article.show .content {
+  margin-bottom:40px;
+}
+
 article.show .content a {
 	color: #666;
 	text-decoration: none;
@@ -250,6 +249,7 @@ a.show p.date {
 	margin-top: 0;
 	color: #999;
 	font-size: 1em;
+  margin-bottom: 25px;
 }
 
 a.show:hover {
