@@ -1,0 +1,83 @@
+- title: "Zapcast#16" # optional
+  url: "https://www.youtube.com/watch?v=8FbD34sl02c" # required
+  description: Sympathique interview de l'équipe de Poligeek par Christophe et Jérome de Zapcast, le podcast… sur les podcasts ! # optional
+  youtube_id: 8FbD34sl02c # optional
+  date: 2011-02-28 00:00:00 # required
+  
+- title: "L’apéro du Captain #78 : Duel de lapsus sexuel pour les poligeeks" # optional
+  url: "http://www.captainweb.net/2011/06/07/duel-de-lapsus-sexuel-pour-les-poligeeks/" # required
+  image: "/images/testimonials/adc78.jpg" # optional
+  quote: "Un jour peut-être, Sarkozy tapera dans Google « Podcast Poligeek » et tombera directement sur ce billet en premier résultat. La, il découvrira qu’avant de devenir des stars de la radio qui interview ministres, députés et sénateurs, l’équipe de Poligeek s’est risquée dans la pire émission du net francophone à parler de scandales sexuels en goûtant de l’alcool de poire frelaté." # optional
+  quote_source: "Captain Web" # optional
+  date: 2011-06-07 00:00:00 # required
+  
+- title: "Podcasts à l’ère libre" # optional
+  url: "http://www.liberation.fr/ecrans/2012/10/31/podcasts-a-l-ere-libre_952536" # required
+  image: "/images/testimonials/libe.jpg" # optional
+  quote: "Poligeek aborde, sous la forme d’un débat, l’actualité technologique et politique. Un exercice radiophonique, cadré et sérieux, accessible aux podcasteurs débutants." # optional
+  quote_source: "Tania Kahn, <i>Libération du 30 octobre 2012</i>." # optional
+  date: 2012-10-30 06:00:00 # required
+
+- title: "Le Parti pirate veut se faire entendre" # optional
+  url: "http://www.numerama.com/magazine/16802-video-le-parti-pirate-veut-se-faire-entendre.html" # required
+  description: Numérama reprend notre entretien avec Paul Da Silva, alors porte-parole du Parti Pirate. # optional
+  image: "/images/testimonials/numerama.jpg" # optional
+  date: 2010-09-16 00:00:00 # required
+
+- title: "2012 L'émission" # optional
+  url: "http://2012lemission.fr" # required
+  description: Nous sommes intervenus à plusieurs reprises dans ce podcast politique organisé par <a href="https://twitter.com/lemebfr">Lépoold Mebazza</a>. Retrouvez Antoine et Fabien dans l'émission 1, Adrien dans les émissions 7 et 8. # optional
+  image: "images/testimonials/2012Lemission.png" # optional
+  date: 2011-11-30 00:00:00 # required
+  
+- title: "Les Gribouillons" # optional
+  url: "http://gribouillons.fr/?s=poligeek" # required
+  description: Une série de 13 dessins, croqués en direct par notre auditeur <a href="https://twitter.com/randallflagg_">Randall Flagg</a>. # optional
+  image: "/images/testimonials/gribouillons.png" # optional
+  date: 2011-05-05 15:00:00 # required
+
+# - title: "Poli*Geek" # optional
+#   url: "http://garikover.com/poligeek/" # required
+#   quote: "J’ai trouvé ce podcast par hasard en farfouillant le web à la recherche d’un truc à écouter… c’est excellent." # optional
+#   date: 2012-05-16 15:00:00 # required
+
+- title: "Bazingcast #29 « Bazingcast vs. PoliGauche »" # optional
+  url: "http://bazingcast.com/2012/04/bazingcast-29-poligeek-crossover-presidentielles/" # required
+  description: "Nous avons partagé une émission avec nos amis du podcast Bazingcast. Au menu : les présidentielles de 2012, avec le couteau entre les dents et les chars de Moscou à portée de main.<br/>Comme le dit si bien Bazingcast : **_Le crossover qui tient de la cohabitation_**." # optional
+  image: "/images/testimonials/bazingcast_29a.jpg" # optional
+  date: 2012-04-11 15:00:00 # required  
+  
+- title: "Podcastore #15 - The Musical" # optional
+  url: "https://soundcloud.com/podcastore/podcastore-15" # required
+  description: Belle critique de notre travail par Omar de Podcastore. # optional
+  image: "/images/testimonials/podcastore.jpg" # optional
+  quote: "Ils ont trouvé un traitement alternatif à ce sujet omniprésent." # optional
+  quote_source: "Omar, _Podcastore_" # optional
+  date: 2016-10-14 15:00:00 # required
+  
+- title: "Will&Co #47 - Une haleine de chorizo slovaque" # optional
+  url: "https://itunes.apple.com/fr/podcast/will-co-47-une-haleine-chorizo/id336547314?i=1000105300015&mt=2" # required
+  description: L'équipe de Poligeek est invitée par l'émission Will&Co, dans laquelle Adrien était chroniqueur régulier. # optional
+  image: "/images/testimonials/wac.png" # optional
+  date: 2011-11-10 15:00:00 # required  
+  
+# Complete template
+# - title: "Titre" # optional
+#   url: "http://www.poligeek.fr" # required
+#   description: Super description un peu longue mais pas trop parce que bon, quand même. # optional
+#   image: "/images/testimonials/2012Lemission.png" # optional
+#   quote: "Lorem ipsum dolor sit amet." # optional
+#   quote_source: "Karl Marx" # optional
+#   youtube_id: 8FbD34sl02c # optional
+#   date: 2010-04-22 15:00:00 # required
+  
+  
+  
+  
+  # - Libé http://www.liberation.fr/ecrans/2012/10/31/podcasts-a-l-ere-libre_952536
+  # - Gribouillons http://gribouillons.fr/?p=153 (et plusieurs autres)
+  # - Numérama http://www.numerama.com/magazine/16802-video-le-parti-pirate-veut-se-faire-entendre.html
+  # - 2012, l’émission http://2012lemission.fr/?p=221 (et 2 autres émissions)
+  # - Garikover http://garikover.com/poligeek/
+  # - Bazingcast http://bazingcast.com/2012/04/bazingcast-29-poligeek-crossover-presidentielles/
+  # - Will&Co #47 https://itunes.apple.com/fr/podcast/will-co-47-une-haleine-chorizo/id336547314?i=1000105300015&mt=2

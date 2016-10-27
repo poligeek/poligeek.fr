@@ -1,0 +1,37 @@
+---
+layout: default
+title: Ils parlent de Poligeek
+---
+
+<div class="container testimonial">
+	<div class="row">
+  	<div class="col-md-12">
+      <div class="card-columns">
+        {% assign cards = site.data.testimonials | sort: 'date' %}
+        {% for card in cards reversed %}
+        <div class="card">
+          {% if card.image %}<a href="{{ card.url }}"><img class="card-img-top img-fluid" src="{{ card.image }}" alt="{{ card.title }}"></a>
+          {% elsif card.youtube_id %}
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ card.youtube_id }}?rel=0" allowfullscreen></iframe>
+          </div>
+          {% endif %}
+          {% if card.title || card.description || card.quote %}
+          <div class="card-block">
+            {% if card.title %}<a href="{{ card.url }}"><h4 class="card-title">{{ card.title }}</h4></a>{% endif %}
+            {% if card.description %}<p class="card-text">{{ card.description | markdownify }}</p>{% endif %}
+            {% if card.quote %}
+            <blockquote class="blockquote">
+              <p class="mb-0">{{ card.quote | markdownify }}</p>
+              {% if card.quote_source %}<footer class="blockquote-footer">{{ card.quote_source | markdownify }}</footer>{% endif %}
+            </blockquote>
+            {% endif %}
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+		</div>
+  </div>
+</div>
+
