@@ -1,13 +1,14 @@
-<div class="panel panel-default panel-download">
-  <div class="panel-body">
-		<h2>Partager et télécharger Poligeek <b>#{{ page.number }} - {{ page.title }}</b></h2>
-
+<div class="card">
+  <div class="card-header">
+    Partager et télécharger Poligeek <b>#{{ page.number }} - {{ page.title }}</b>
+  </div>
+  <div class="card-block">
 		<div class="btn-group">
-	    <a href="https://www.facebook.com/sharer/sharer.php?u=poligeek.fr/{{ page.number }}" class="btn btn-default btn-sm"><i class="el el-facebook"></i> Facebook</a>
-		  <a href="https://twitter.com/home?status=poligeek.fr/{{ page.number }}" class="btn btn-default btn-sm"><i class="el el-twitter"></i> Twitter</a>
+	    <a href="https://www.facebook.com/sharer/sharer.php?u=poligeek.fr/{{ page.number }}" class="btn btn-default btn-sm btn-outline-info" role="button"><i class="el el-facebook"></i> Facebook</a>
+		  <a href="https://twitter.com/home?status=poligeek.fr/{{ page.number }}" class="btn btn-default btn-sm btn-outline-info" role="button"><i class="el el-twitter"></i> Twitter</a>
   	</div>
 		<div class="btn-group pull-right" role="group">
-			<a href="http://storage.poligeek.fr/shows/show{{ page.number }}.mp3" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-download-alt"></span> Télécharger</a>
+			<a href="http://storage.poligeek.fr/shows/show{{ page.number }}.mp3" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-download-alt"></span> Télécharger au format MP3</a>
   	</div>
-	</div>
+  </div>
 </div>
