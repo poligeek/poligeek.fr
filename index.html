@@ -11,7 +11,7 @@ title: Poligeek, le podcast politique et tech
   {% endif %}
 		<div class="col-sm-3">
 			<a class="show" href="{{ post.url }}">
-				<div class="show-cover" style="background: url('http://storage.poligeek.fr/assets/cover{{ post.number }}-small.jpg') no-repeat center; background-size: cover;" {% if post.theme_debat && post.theme_debat != "" %}data-toggle="tooltip" data-placement="top" title="{{ post.theme_debat }}"{% endif %}></div>
+				<div class="show-cover" style="background: url('/images/covers/cover{{ post.number }}.light.png') no-repeat center; background-size: cover;" {% if post.theme_debat && post.theme_debat != "" %}data-toggle="tooltip" data-placement="top" title="{{ post.theme_debat }}"{% endif %}></div>
 				<p class="title">{% if post.number %}#{{ post.number }} - {% endif %}{{ post.title }}</p>
 				<p class="date">{% assign m = post.date | date: "%-m" %}{{ post.date | date: "%-d" }} {% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ post.date | date: "%Y" }}</p>
 			</a>

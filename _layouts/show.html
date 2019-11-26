@@ -15,7 +15,7 @@ layout: default
 		<div class="row">
 			<div class="col-md-5">
         <div class="card">
-          <img class="card-img-top img-fluid" src="http://storage.poligeek.fr/assets/cover{{ page.number }}-small.jpg" alt="{% if page.number %}#{{ page.number }} - {% endif %}{{ page.title }}">
+          <img class="card-img-top img-fluid" src="/images/covers/cover{{ page.number }}.light.png" alt="{% if page.number %}#{{ page.number }} - {% endif %}{{ page.title }}">
           <div class="card-block">
             <p class="card-text"><p class="show_detail"><strong>{% assign m = page.date | date: "%-m" %}{{ page.date | date: "%-d" }} {% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ page.date | date: "%Y" }}</strong></p>
 						{% if page.date != page.record_date %}<p class="show_detail">Enregistré le {% assign m = page.record_date | date: "%-m" %}{{ page.record_date | date: "%-d" }} {% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ page.record_date | date: "%Y" }}</p>{% endif %}
